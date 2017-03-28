@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>An example edition for Edirom Online</description>
+    <author>Benjamin W. Bohl</author>
+    <website>http://www.edirom.de/apps/EditionExample</website>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>library</type>
+    <target>/db/apps/edirom/edition-example</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <permissions user="edirom" password="edirom" group="edirom" mode="rwxrwxr-x"/>
+</meta>
