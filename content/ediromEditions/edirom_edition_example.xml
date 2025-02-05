@@ -74,6 +74,20 @@
                         </names>
                     </navigatorItem>
                 </navigatorCategory>
+                <navigatorCategory xml:id="navCategory-4" sortNo="3">
+                    <names>
+                        <name xml:lang="de">Aufnahmen</name>
+                        <name xml:lang="en">Recordings</name>
+                    </names>
+                    <navigatorItem xml:id="navItem-4-1"
+                              sortNo="1"
+                              targets="xmldb:exist:///db/apps/edirom/edition-example/content/recordings/edirom_recording_1.xml">
+                        <names>
+                            <name xml:lang="de">Beispielaufnahme 1</name>
+                            <name xml:lang="en">Sample recording 1</name>
+                        </names>
+                    </navigatorItem>
+                </navigatorCategory>
             </navigatorDefinition>
             <searchWindowConfig/>
             <concordances>

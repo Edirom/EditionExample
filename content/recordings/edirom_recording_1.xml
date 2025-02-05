@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schemata/rng/freidi-schema-musicSource.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schemata/rng/freidi-schema-musicSource.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="recording-1">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Beispielaufname 1</title>
+            </titleStmt>
+            <pubStmt/>
+            <sourceDesc>
+                <source>
+                    <titleStmt>
+                        <title type="main" xml:lang="de">Max Reger Collection</title>
+                        <respStmt>
+                            <resp></resp>
+                            <persName role="artist">Max Reger</persName>
+                        </respStmt>
+                    </titleStmt>
+                </source>        
+            </sourceDesc>
+            <componentGrp>
+                <source n="1" xml:id="recording-1">
+                    <titleStmt>
+                        <title type="main" xml:lang="de">Op.67 No.45</title>
+                        <title type="sub" xml:lang="de">Wer nur den lieben Gott lässt walten</title>
+                    </titleStmt>
+                </source>
+                <source n="2" xml:id="recording-2">
+                    <titleStmt>
+                        <title type="main" xml:lang="de">Op.67 No.25</title>
+                        <title type="sub" xml:lang="de">Machs mit mir, Gott, nach deiner Güt</title>
+                    </titleStmt>
+                </source>
+            </componentGrp>
+        </fileDesc>
+        <encodingDesc xmlns:xlink="http://www.w3.org/1999/xlink">
+            <projectDesc xml:lang="de">
+                <p>Die Edition Example enthält Beispiel-Encodings für ausgewählte Views.</p>
+            </projectDesc>
+            <samplingDecl xml:lang="de">
+                <p>Frei ausgewählte Samples</p>
+            </samplingDecl>
+        </encodingDesc>
+        <revisionDesc/>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <performance>
+            <recording decls="#recording-1">
+                <avFile target="https://upload.wikimedia.org/wikipedia/commons/e/ec/Reger_Op.67_No.45_Wer_nur_den_lieben_Gott_l%C3%A4sst_walten.ogg" mimetype="audio/ogg"/>
+            </recording>
+            <recording decls="#recording-2">
+                <avFile target="https://upload.wikimedia.org/wikipedia/commons/9/94/Reger_Mach%27s_mit_mir%2C_Gott%2C_nach_deiner_G%C3%BCt_Op_67_No_25.ogg" mimetype="audio/ogg"/>
+            </recording>
+        </performance>
+        <body/>
+    </music>
+</mei>
