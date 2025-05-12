@@ -17,7 +17,7 @@ cd /Users/User/GitHub/edirom-online-edition-example
 - if you have Apache Ant installed on your system, you can execute it manually: `ant`
 - alternatively: open build.xml with oXygen XML-Editor and click the run-button, oXygen will do the rest automatically 
 
-The will automatically generate a folder "dist" in the Repository containing `EditionExample-VERSION.xar` e.g. `EditionExample-0.1.xar`. This file can be uploaded to your _eXist-db_ instance.
+This will automatically generate a folder "dist" in the Repository containing `EditionExample-VERSION.xar` e.g. `EditionExample-0.1.xar`. This file can be uploaded to your _eXist-db_ instance.
 
 # License Information
 This project is generally licensed under the terms of [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/) except for files stating otherwise.
