@@ -4,7 +4,7 @@
 <mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      meiversion="5.0"
-     xml:id="edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e">
+     xml:id="edirom_source_2">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -29,7 +29,7 @@
             </titleStmt>
             <pubStmt/>
             <notesStmt>
-                <annot type="descLink" plist="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml"/>
+                <annot type="descLink" plist="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_source_2.xml"/>
             </notesStmt>
             <relationList>
                <relation rel="isEmbodimentOf"
@@ -622,169 +622,169 @@
                            label="0"
                            n="1"
                            type="upbeat"
-                           xml:id="edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5"/>
+                           xml:id="edirom_measure_39"/>
                   <measure facs="#edirom_zone_d62bc5e5-2fb5-4fc7-b1b5-9aca479c0fcd"
                            label="1"
                            n="2"
-                           xml:id="edirom_measure_e3530909-145e-466e-939e-b6c7e4015842"/>
+                           xml:id="edirom_measure_40"/>
                   <measure facs="#edirom_zone_d9b93a06-3bf1-4408-b58d-563f07617f00"
                            label="2"
                            n="3"
-                           xml:id="edirom_measure_b1981cb9-3a44-439c-9c5b-b05e822d553e"/>
+                           xml:id="edirom_measure_41"/>
                   <measure facs="#edirom_zone_92f6cbcb-269f-4c68-a1a6-8a5cf4247994"
                            label="3"
                            n="4"
-                           xml:id="edirom_measure_b8e84404-74b5-47ec-bd84-dc01c5c3fad6"/>
+                           xml:id="edirom_measure_42"/>
                   <measure facs="#edirom_zone_4df72b52-35a5-4886-9e42-8b3fc09d8272"
                            label="4"
                            n="5"
-                           xml:id="edirom_measure_3c608e31-8266-48e7-bc62-d521b5bc711b"/>
+                           xml:id="edirom_measure_43"/>
                   <measure facs="#edirom_zone_891e8d84-3bb2-4e50-8cf1-d48cbf6f20fd"
                            label="5"
                            n="6"
-                           xml:id="edirom_measure_9c6075e1-f15f-4492-a1ee-253b8a9e8d9c"/>
+                           xml:id="edirom_measure_44"/>
                   <sb/>
                   <measure facs="#edirom_zone_bd50af04-0efd-41c8-ba73-ffbdfd248662"
                            label="6"
                            n="7"
-                           xml:id="edirom_measure_02fba744-c42e-42dc-84a5-ba4537d10efe"/>
+                           xml:id="edirom_measure_45"/>
                   <measure facs="#edirom_zone_4b7e35a7-fe68-4647-bccf-7967ebf81941"
                            label="7"
                            n="8"
-                           xml:id="edirom_measure_0840d2bb-d46d-4942-90cc-e9423c59f44e"/>
+                           xml:id="edirom_measure_46"/>
                   <measure facs="#edirom_zone_6ef1828e-864e-46dc-a774-6c32f90a77b5"
                            label="8"
                            n="9"
-                           xml:id="edirom_measure_070c0232-e6ab-49ed-a72d-73986edca704"/>
+                           xml:id="edirom_measure_47"/>
                   <measure facs="#edirom_zone_071f04de-80b4-44c6-9614-596a6b1734a0"
                            label="9"
                            n="10"
-                           xml:id="edirom_measure_1d425944-f461-429e-9f1c-b7bd26b661d6"/>
+                           xml:id="edirom_measure_48"/>
                   <measure facs="#edirom_zone_99a4ce1b-1f66-4004-b2a2-1bea6210a06a"
                            label="10"
                            n="11"
-                           xml:id="edirom_measure_0b7c65b9-b17e-41da-84fc-1d7cf4521a7e"/>
+                           xml:id="edirom_measure_49"/>
                   <sb/>
                   <measure facs="#edirom_zone_cc1e3d63-3c22-410d-8b38-9a0ac67cb315"
                            label="11"
                            n="12"
-                           xml:id="edirom_measure_73bf1fc7-4552-4bf6-b73d-0a2396ddc717"/>
+                           xml:id="edirom_measure_50"/>
                   <measure facs="#edirom_zone_92528e9c-63cd-4e71-bf1a-10a5733d4cbd"
                            label="12"
                            n="13"
-                           xml:id="edirom_measure_9b9b3b42-3ab6-4e20-8248-39331a0b5fa0"/>
+                           xml:id="edirom_measure_51"/>
                   <measure facs="#edirom_zone_c9a9b9cf-c533-406e-8f88-9fcfe03296f4"
                            label="13"
                            n="14"
-                           xml:id="edirom_measure_a11b002d-20f7-48dd-9b7d-1bfb38c50505"/>
+                           xml:id="edirom_measure_52"/>
                   <measure facs="#edirom_zone_50ac8423-2f9d-4773-b900-2d59c2ab2564"
                            label="14"
                            n="15"
-                           xml:id="edirom_measure_3b290a45-80ec-4cac-a80c-b4c57f5314b6"/>
+                           xml:id="edirom_measure_53"/>
                   <sb/>
                   <measure facs="#edirom_zone_e238484c-8103-4e92-bf22-d17a58f660b9"
                            label="15"
                            n="16"
-                           xml:id="edirom_measure_39e139d6-65ab-451a-8584-5136bfb28d36"/>
+                           xml:id="edirom_measure_54"/>
                   <measure facs="#edirom_zone_9f51de18-24d7-46da-9cea-250e88310379"
                            label="16"
                            n="17"
-                           xml:id="edirom_measure_b59d1ba7-81f3-40de-94b1-6bc3e33558bb"/>
+                           xml:id="edirom_measure_55"/>
                   <measure facs="#edirom_zone_aae66c0f-8357-4cea-ab5c-b8be51a6dad4"
                            label="17"
                            n="18"
-                           xml:id="edirom_measure_038cd1f1-5d0b-45a6-8550-ca9cda249fb5"/>
+                           xml:id="edirom_measure_56"/>
                   <measure facs="#edirom_zone_38b24673-456e-4c73-af06-8a64bd0050ca"
                            label="18"
                            n="19"
-                           xml:id="edirom_measure_bfcb31a7-7260-4a54-89ad-0b183734cc4e"/>
+                           xml:id="edirom_measure_57"/>
                   <measure facs="#edirom_zone_220db741-a76d-4300-9286-49cfdaa51434"
                            label="19"
                            n="20"
-                           xml:id="edirom_measure_9468004c-0617-40aa-b581-6538b5ccf181"/>
+                           xml:id="edirom_measure_58"/>
                   <pb/>
                   <sb/>
                   <measure facs="#edirom_zone_ad505480-9a4c-45d0-8d3b-f8759a7960b3"
                            label="19'"
                            n="21"
                            type="upbeat"
-                           xml:id="edirom_measure_5d7f6fab-9181-4f46-ac8e-9bfc91f958ef"/>
+                           xml:id="edirom_measure_59"/>
                   <measure facs="#edirom_zone_2e1819ed-aeb4-4c70-a616-265aaeccd145"
                            label="20"
                            n="22"
-                           xml:id="edirom_measure_eeba3976-5e63-4fda-9676-eb46228c13f4"/>
+                           xml:id="edirom_measure_60"/>
                   <measure facs="#edirom_zone_fb5c1622-0d81-41b1-82f7-334e32ea4e07"
                            label="21"
                            n="23"
-                           xml:id="edirom_measure_fb9ad89e-5cd7-4049-86f1-ad5fcb716acf"/>
+                           xml:id="edirom_measure_61"/>
                   <measure facs="#edirom_zone_c6441175-502a-41c0-b2fc-becec5ed7086"
                            label="22"
                            n="24"
-                           xml:id="edirom_measure_d870f50f-3f48-4cc6-930a-2070447cbce7"/>
+                           xml:id="edirom_measure_62"/>
                   <sb/>
                   <measure facs="#edirom_zone_15b91280-18e5-4187-9cb4-a8f22bfc8712"
                            label="23"
                            n="25"
-                           xml:id="edirom_measure_dd4f59a7-9cf1-4817-a93b-deeceb871098"/>
+                           xml:id="edirom_measure_63"/>
                   <measure facs="#edirom_zone_226ccf76-0c0b-444f-8645-315abfd67263"
                            label="24"
                            n="26"
-                           xml:id="edirom_measure_07e65504-616c-4fb9-a763-f58976905785"/>
+                           xml:id="edirom_measure_64"/>
                   <measure facs="#edirom_zone_94365fca-25b1-4e7c-bd8e-7d60d19d6869"
                            label="25"
                            n="27"
-                           xml:id="edirom_measure_329d9335-4b57-4bb7-b897-1121ae823714"/>
+                           xml:id="edirom_measure_65"/>
                   <measure facs="#edirom_zone_1c14f678-d16b-451a-bfd9-c32132628964"
                            label="26"
                            n="28"
-                           xml:id="edirom_measure_79078332-fd67-419c-82dc-363bd03b69c1"/>
+                           xml:id="edirom_measure_66"/>
                   <sb/>
                   <measure facs="#edirom_zone_0e722ca8-659c-43dc-aebd-64af7636cdba"
                            label="27"
                            n="29"
-                           xml:id="edirom_measure_e087f18d-583c-402d-8aa5-82cfd559f37b"/>
+                           xml:id="edirom_measure_67"/>
                   <measure facs="#edirom_zone_7ef62a35-9951-47db-99c8-a685df1f2a68"
                            label="28"
                            n="30"
-                           xml:id="edirom_measure_6941354b-6fee-4951-873b-7b68ea47ddb9"/>
+                           xml:id="edirom_measure_68"/>
                   <measure facs="#edirom_zone_f6e389c9-1913-474e-9856-fa2b58e911b4"
                            label="29"
                            n="31"
-                           xml:id="edirom_measure_a8de6c38-60d3-4a22-a085-6b835348d0da"/>
+                           xml:id="edirom_measure_69"/>
                   <measure facs="#edirom_zone_66a92544-bf56-4861-a1bc-7d61101e19d8"
                            label="30"
                            n="32"
-                           xml:id="edirom_measure_ca09bcda-57c8-4752-acf4-f69722a8b6b5"/>
+                           xml:id="edirom_measure_70"/>
                   <sb/>
                   <measure facs="#edirom_zone_789f86ec-d5ef-4405-95cd-cd17c7857aca"
                            label="31"
                            n="33"
-                           xml:id="edirom_measure_918ef9b4-32d1-48e2-b7fa-46796267d38f"/>
+                           xml:id="edirom_measure_71"/>
                   <measure facs="#edirom_zone_15e4910f-5338-44d8-bbf2-7271f326f1e9"
                            label="32"
                            n="34"
-                           xml:id="edirom_measure_4a6d0679-38a5-4a9a-925b-b2c8334c7cbe"/>
+                           xml:id="edirom_measure_72"/>
                   <measure facs="#edirom_zone_05ffa0c3-a5a5-4b82-b73e-aeea202bc859"
                            label="33"
                            n="35"
-                           xml:id="edirom_measure_778e3cc6-37ff-4a48-8be1-75d27ea17b33"/>
+                           xml:id="edirom_measure_73"/>
                   <measure facs="#edirom_zone_21741f63-031e-4bde-9073-93dfd34c2bff"
                            label="34"
                            n="36"
-                           xml:id="edirom_measure_147f05c6-4253-42d2-8acf-3ddd9cf89163"/>
+                           xml:id="edirom_measure_74"/>
                   <sb/>
                   <measure facs="#edirom_zone_9dcf8950-d874-481d-864d-fe9be7b81524"
                            label="35"
                            n="37"
-                           xml:id="edirom_measure_f2b82427-380a-4039-b723-d31d721275ed"/>
+                           xml:id="edirom_measure_75"/>
                   <measure facs="#edirom_zone_d01977c0-d9d1-49c2-8b3d-cf9af444ee07"
                            label="36"
                            n="38"
-                           xml:id="edirom_measure_565d0ae8-3626-49bc-a7a3-94e36a8039dc"/>
+                           xml:id="edirom_measure_76"/>
                   <measure facs="#edirom_zone_465f04b0-21df-46da-8648-1a4e17837511"
                            label="37"
                            n="39"
-                           xml:id="edirom_measure_3b536c13-2b4b-4d2a-99b6-2be279e8e29e"/>
+                           xml:id="edirom_measure_77"/>
                </section>
             </score>
          </mdiv>

@@ -4,7 +4,7 @@
 <mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      meiversion="5.0"
-     xml:id="edirom_edition_7bade454-c1b2-499f-8100-7b3e369e2d65">
+     xml:id="edirom_edition">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -68,7 +68,7 @@
                 <language auth="de"/>
             </langUsage>
             <notesStmt>
-                 <annot type="descLink" plist="xmldb:exist:///db/apps/edirom/edition-example/content/editions/edirom_edition_7bade454-c1b2-499f-8100-7b3e369e2d65.xml"/>
+                 <annot type="descLink" plist="xmldb:exist:///db/apps/edirom/edition-example/content/editions/edirom_edition.xml"/>
             </notesStmt>
             <classification>
                <termList>
@@ -153,7 +153,7 @@
                            label="0"
                            n="1"
                            type="upbeat"
-                           xml:id="edirom_measure_fa0d68e6-2a1f-41a3-9178-c86d1db3e6af">
+                           xml:id="edirom_measure_78">
                      <staff n="1" xml:id="m-43">
                         <layer n="1" xml:id="m-44">
                            <rest dur="4" dur.ges="256" tstamp.ges="0" xml:id="m-45"/>
@@ -193,7 +193,7 @@
                   <measure facs="#edirom_zone_58ed71bb-41a1-4b75-9f50-2d42a672adf0"
                            label="1"
                            n="2"
-                           xml:id="edirom_measure_1c90e1bf-9991-4ce5-937d-b0b0fbade7be">
+                           xml:id="edirom_measure_79">
                      <staff n="1" xml:id="m-59">
                         <layer n="1" xml:id="m-60">
                            <mRest tstamp.ges="0.607" xml:id="m-61"/>
@@ -259,7 +259,7 @@
                   <measure facs="#edirom_zone_5d34972c-6998-4480-9b35-2374ca7de042"
                            label="2"
                            n="3"
-                           xml:id="edirom_measure_9d146d07-9fc5-42da-927a-58ac4e9f36b0">
+                           xml:id="edirom_measure_80">
                      <staff n="1" xml:id="m-74">
                         <layer n="1" xml:id="m-75">
                            <mRest tstamp.ges="3.035" xml:id="m-76"/>
@@ -311,7 +311,7 @@
                   <measure facs="#edirom_zone_955eac1e-5acf-4ca2-a08a-98b46382a7bf"
                            label="3"
                            n="4"
-                           xml:id="edirom_measure_e72a2124-253d-4a23-8897-95304ea47181">
+                           xml:id="edirom_measure_81">
                      <staff n="1" xml:id="m-89">
                         <layer n="1" xml:id="m-90">
                            <rest dur="2" dur.ges="512" tstamp.ges="5.463" xml:id="m-91"/>
@@ -356,7 +356,7 @@
                   <measure facs="#edirom_zone_13a2e61e-148e-48e7-867b-5d579a9e916d"
                            label="4"
                            n="5"
-                           xml:id="edirom_measure_b089da56-db60-4b64-b390-9572b39d585b">
+                           xml:id="edirom_measure_82">
                      <staff n="1" xml:id="m-106">
                         <layer n="1" xml:id="m-107">
                            <note dur="4"
@@ -548,7 +548,7 @@
                   <measure facs="#edirom_zone_80d7a83e-9af2-45ff-bdbc-27434d37b0dc"
                            label="5"
                            n="6"
-                           xml:id="edirom_measure_85e99ad5-313a-4c2a-bd16-b32b4205e4f3">
+                           xml:id="edirom_measure_83">
                      <staff n="1" xml:id="m-159">
                         <layer n="1" xml:id="m-160">
                            <note dur="4"
@@ -729,7 +729,7 @@
                   <measure facs="#edirom_zone_1ac20d5e-8ed2-49fc-bf95-9154f992a14d"
                            label="6"
                            n="7"
-                           xml:id="edirom_measure_9b188b8f-f4b3-4578-8f8a-79dd589ed2f9">
+                           xml:id="edirom_measure_84">
                      <staff n="1" xml:id="m-206">
                         <layer n="1" xml:id="m-207">
                            <note dots="1"
@@ -853,7 +853,7 @@
                   <measure facs="#edirom_zone_4aebe7cf-c885-4a4f-9c57-4c9dcb2c3742"
                            label="7"
                            n="8"
-                           xml:id="edirom_measure_72a1ef9a-8abb-4793-b6b4-435965645d64">
+                           xml:id="edirom_measure_85">
                      <staff n="1" xml:id="m-240">
                         <layer n="1" xml:id="m-241">
                            <rest dur="2" dur.ges="512" tstamp.ges="15.175" xml:id="m-242"/>
@@ -933,7 +933,7 @@
                   <measure facs="#edirom_zone_0eeea8a2-afc6-4ec5-ba5b-46d724f063f9"
                            label="8"
                            n="9"
-                           xml:id="edirom_measure_3e597670-73b1-4d3e-9c32-5d55e5fb6398">
+                           xml:id="edirom_measure_86">
                      <staff n="1" xml:id="m-261">
                         <layer n="1" xml:id="m-262">
                            <note dur="4"
@@ -1114,7 +1114,7 @@
                   <measure facs="#edirom_zone_a3e9c094-d0eb-46f9-99b0-b0a83b8af160"
                            label="9"
                            n="10"
-                           xml:id="edirom_measure_ad11248e-7065-4367-8236-47968d9242f1">
+                           xml:id="edirom_measure_87">
                      <staff n="1" xml:id="m-313">
                         <layer n="1" xml:id="m-314">
                            <note dur="4"
@@ -1274,7 +1274,7 @@
                   <measure facs="#edirom_zone_06a9d71a-5c4a-4f7a-9009-1f28a58c6fb5"
                            label="10"
                            n="11"
-                           xml:id="edirom_measure_4b136713-d304-44bc-895f-37ed6c0184ef">
+                           xml:id="edirom_measure_88">
                      <staff n="1" xml:id="m-354">
                         <layer n="1" xml:id="m-355">
                            <note dots="1"
@@ -1386,7 +1386,7 @@
                   <measure facs="#edirom_zone_fc7797da-8834-4684-ae0b-1d84ccdd08fb"
                            label="11"
                            n="12"
-                           xml:id="edirom_measure_29741f1c-565d-4817-963b-5a9983c682ae">
+                           xml:id="edirom_measure_89">
                      <staff n="1" xml:id="m-386">
                         <layer n="1" xml:id="m-387">
                            <rest dur="2" dur.ges="512" tstamp.ges="24.887" xml:id="m-388"/>
@@ -1464,7 +1464,7 @@
                   <measure facs="#edirom_zone_c17c5d04-9271-44c4-b867-bba03f1729a7"
                            label="12"
                            n="13"
-                           xml:id="edirom_measure_4b0af564-915b-449b-adab-74e59227a662">
+                           xml:id="edirom_measure_90">
                      <staff n="1" xml:id="m-408">
                         <layer n="1" xml:id="m-409">
                            <note dur="4"
@@ -1651,7 +1651,7 @@
                   <measure facs="#edirom_zone_10accf63-0391-4203-ac7f-755de4605e82"
                            label="13"
                            n="14"
-                           xml:id="edirom_measure_3d175953-8957-4647-931d-fb4876cafd29">
+                           xml:id="edirom_measure_91">
                      <staff n="1" xml:id="m-459">
                         <layer n="1" xml:id="m-460">
                            <note dur="4"
@@ -1812,7 +1812,7 @@
                   <measure facs="#edirom_zone_4c466337-9843-4b8c-9d30-1cb50efcc769"
                            label="14"
                            n="15"
-                           xml:id="edirom_measure_5ef056ab-09ed-4dd8-aa0c-ee59ba2e5ce5">
+                           xml:id="edirom_measure_92">
                      <staff n="1" xml:id="m-505">
                         <layer n="1" xml:id="m-506">
                            <note dur="4"
@@ -2005,7 +2005,7 @@
                   <measure facs="#edirom_zone_10e3ec5b-4ce9-4049-9143-9149c8cec60a"
                            label="15"
                            n="16"
-                           xml:id="edirom_measure_57249dcf-c117-4b1c-a86b-801b07fb95e4">
+                           xml:id="edirom_measure_93">
                      <staff n="1" xml:id="m-560">
                         <layer n="1" xml:id="m-561">
                            <note dur="4"
@@ -2210,7 +2210,7 @@
                   <measure facs="#edirom_zone_f2122ee7-2380-4d84-b327-041ce0e06e23"
                            label="16"
                            n="17"
-                           xml:id="edirom_measure_ff22ba7e-de17-4fb4-a2c5-0a877b5f97d5">
+                           xml:id="edirom_measure_94">
                      <staff n="1" xml:id="m-608">
                         <layer n="1" xml:id="m-609">
                            <note dots="1"
@@ -2296,7 +2296,7 @@
                   <measure facs="#edirom_zone_b2973d07-d466-4010-befa-69b93cb29fec"
                            label="17"
                            n="18"
-                           xml:id="edirom_measure_f41b7bf3-0614-4ffd-83e5-39bb15d106c0">
+                           xml:id="edirom_measure_95">
                      <staff n="1" xml:id="m-632">
                         <layer n="1" xml:id="m-633">
                            <note dots="1"
@@ -2397,7 +2397,7 @@
                   <measure facs="#edirom_zone_6bddfa97-f194-4f1d-8114-53bbadf78987"
                            label="18"
                            n="19"
-                           xml:id="edirom_measure_b7cd628c-0b56-4849-a184-7c1d0831c253">
+                           xml:id="edirom_measure_96">
                      <staff n="1" xml:id="m-659">
                         <layer n="1" xml:id="m-660">
                            <note dur="4"
@@ -2597,7 +2597,7 @@
                   <measure facs="#edirom_zone_566a52d4-cb52-4f6e-88f9-fa2f2ec372b6"
                            label="19"
                            n="20"
-                           xml:id="edirom_measure_8aa84a94-3cf0-4f3d-b711-4b5abf74be3a">
+                           xml:id="edirom_measure_97">
                      <staff n="1" xml:id="m-710">
                         <layer n="1" xml:id="m-711">
                            <note dots="1"
@@ -2668,7 +2668,7 @@
                   <measure facs="#edirom_zone_ee62440e-430f-4f17-a851-50c003586fc4"
                            label="19'"
                            n="21"
-                           xml:id="edirom_measure_a6de5d90-e070-4251-809a-4ecd7125b418">
+                           xml:id="edirom_measure_98">
                      <staff n="1" xml:id="m-733">
                         <layer n="1" xml:id="m-734">
                            <note dur="4"
@@ -2714,7 +2714,7 @@
                   <measure facs="#edirom_zone_57b0533c-c809-4f06-b961-dd1d8810f4f0"
                            label="20"
                            n="22"
-                           xml:id="edirom_measure_882cf379-a7bc-456f-be01-63678ac45941">
+                           xml:id="edirom_measure_99">
                      <staff n="1" xml:id="m-749">
                         <layer n="1" xml:id="m-750">
                            <note dur="4"
@@ -2878,7 +2878,7 @@
                   <measure facs="#edirom_zone_7eff717c-fb68-459d-b32b-c1fcb46a2305"
                            label="21"
                            n="23"
-                           xml:id="edirom_measure_c4656033-0c24-49e5-b390-57105bd24656">
+                           xml:id="edirom_measure_100">
                      <staff n="1" xml:id="m-791">
                         <layer n="1" xml:id="m-792">
                            <note artic="stacc"
@@ -3125,7 +3125,7 @@
                   <measure facs="#edirom_zone_e3c615e3-5ef6-4311-9592-78d5a61bc747"
                            label="22"
                            n="24"
-                           xml:id="edirom_measure_65769bb7-e451-4361-8151-fb5635c96f1d">
+                           xml:id="edirom_measure_101">
                      <staff n="1" xml:id="m-844">
                         <layer n="1" xml:id="m-845">
                            <note artic="stacc"
@@ -3280,7 +3280,7 @@
                   <measure facs="#edirom_zone_70f05361-5bb1-42d0-b80f-f4d02c3eac10"
                            label="23"
                            n="25"
-                           xml:id="edirom_measure_bd264868-8647-4d62-924f-a70b007e7878">
+                           xml:id="edirom_measure_102">
                      <staff n="1" xml:id="m-880">
                         <layer n="1" xml:id="m-881">
                            <rest dots="1"
@@ -3344,7 +3344,7 @@
                   <measure facs="#edirom_zone_40c5f11e-6180-4c73-85a5-e140f4ad7eb9"
                            label="24"
                            n="26"
-                           xml:id="edirom_measure_d2b64709-5e5a-4432-92bb-91a54a9e173b">
+                           xml:id="edirom_measure_103">
                      <staff n="1" xml:id="m-899">
                         <layer n="1" xml:id="m-900">
                            <note dur="4"
@@ -3526,7 +3526,7 @@
                   <measure facs="#edirom_zone_c02cbe41-6d8a-4466-b4c3-ef2572755ebc"
                            label="25"
                            n="27"
-                           xml:id="edirom_measure_e0ae69e8-93aa-4c36-812b-ac313f0f4086">
+                           xml:id="edirom_measure_104">
                      <staff n="1" xml:id="m-944">
                         <layer n="1" xml:id="m-945">
                            <note dur="4"
@@ -3795,7 +3795,7 @@
                   <measure facs="#edirom_zone_f40b8134-e8b2-46b8-8791-d7e72730e9a6"
                            label="26"
                            n="28"
-                           xml:id="edirom_measure_adb4d347-9d81-463c-a5a8-282b6f4d9a38">
+                           xml:id="edirom_measure_105">
                      <staff n="1" xml:id="m-1004">
                         <layer n="1" xml:id="m-1005">
                            <note dots="1"
@@ -3949,7 +3949,7 @@
                   <measure facs="#edirom_zone_1a26f9e6-893f-411d-875d-cfa72ae2b097"
                            label="27"
                            n="29"
-                           xml:id="edirom_measure_4eaed6ce-0d93-4d10-8e9a-cfaec18f01e3">
+                           xml:id="edirom_measure_106">
                      <staff n="1" xml:id="m-1040">
                         <layer n="1" xml:id="m-1041">
                            <rest dots="1"
@@ -4013,7 +4013,7 @@
                   <measure facs="#edirom_zone_84e232e5-b43c-4b37-ac5c-a25f1e4d12a6"
                            label="28"
                            n="30"
-                           xml:id="edirom_measure_66625070-9e96-4770-a4b8-6f668a4aaf5e">
+                           xml:id="edirom_measure_107">
                      <staff n="1" xml:id="m-1060">
                         <layer n="1" xml:id="m-1061">
                            <note dur="4"
@@ -4219,7 +4219,7 @@
                   <measure facs="#edirom_zone_12c9343f-60d6-4ed1-9a4b-4c8030d9a449"
                            label="29"
                            n="31"
-                           xml:id="edirom_measure_c330b5b6-10b5-416e-98b3-ca9e478cd0bb">
+                           xml:id="edirom_measure_108">
                      <staff n="1" xml:id="m-1108">
                         <layer n="1" xml:id="m-1109">
                            <note artic="stacc"
@@ -4400,7 +4400,7 @@
                   <measure facs="#edirom_zone_7e23c695-1868-41a7-acab-df74f6dcf6b1"
                            label="30"
                            n="32"
-                           xml:id="edirom_measure_000cbdd9-25cb-4699-9d5a-26585e05f57a">
+                           xml:id="edirom_measure_109">
                      <staff n="1" xml:id="m-1150">
                         <layer n="1" xml:id="m-1151">
                            <note dur="4"
@@ -4596,7 +4596,7 @@
                   <measure facs="#edirom_zone_16a4ef81-4e9d-46e7-93a3-8d21072f80c6"
                            label="31"
                            n="33"
-                           xml:id="edirom_measure_0eef52e7-3d29-4097-a93d-6b951ffcba77">
+                           xml:id="edirom_measure_110">
                      <staff n="1" xml:id="m-1196">
                         <layer n="1" xml:id="m-1197">
                            <note artic="stacc"
@@ -4741,7 +4741,7 @@
                   <measure facs="#edirom_zone_426e6b40-fa1f-431d-9f2c-d0fb9a441a82"
                            label="32"
                            n="34"
-                           xml:id="edirom_measure_19d7538e-7ddd-4afa-8ba7-9a32238c044b">
+                           xml:id="edirom_measure_111">
                      <staff n="1" xml:id="m-1229">
                         <layer n="1" xml:id="m-1230">
                            <note dots="1"
@@ -4852,7 +4852,7 @@
                   <measure facs="#edirom_zone_445910ff-83db-4d8f-b87f-1d98285941dc"
                            label="33"
                            n="35"
-                           xml:id="edirom_measure_5729c74f-6da4-4a0f-8d3b-467a96297592">
+                           xml:id="edirom_measure_112">
                      <staff n="1" xml:id="m-1255">
                         <layer n="1" xml:id="m-1256">
                            <note dots="1"
@@ -4995,7 +4995,7 @@
                   <measure facs="#edirom_zone_be46b5aa-07d7-4cb8-856e-aed8baced270"
                            label="34"
                            n="36"
-                           xml:id="edirom_measure_051c3d62-b1dc-4fd4-b4ae-545e9a2d7f6c">
+                           xml:id="edirom_measure_113">
                      <staff n="1" xml:id="m-1289">
                         <layer n="1" xml:id="m-1290">
                            <beam xml:id="m-1293">
@@ -5194,7 +5194,7 @@
                   <measure facs="#edirom_zone_a6336e24-cd5a-4b76-8695-0293a7231a18"
                            label="35"
                            n="37"
-                           xml:id="edirom_measure_2f44063f-0607-4bc5-8e99-44e7b84ee71b">
+                           xml:id="edirom_measure_114">
                      <staff n="1" xml:id="m-1336">
                         <layer n="1" xml:id="m-1337">
                            <note dur="2"
@@ -5331,7 +5331,7 @@
                   <measure facs="#edirom_zone_6fdef722-0569-4ae7-98d4-66c920e126f0"
                            label="36"
                            n="38"
-                           xml:id="edirom_measure_0cf73bbd-d384-443e-a6bc-1fc5c89c86ea">
+                           xml:id="edirom_measure_115">
                      <staff n="1" xml:id="m-1370">
                         <layer n="1" xml:id="m-1371">
                            <mRest tstamp.ges="157.298" xml:id="m-1372"/>
@@ -5509,7 +5509,7 @@
                   <measure facs="#edirom_zone_14bbb8e7-4c03-4e98-b996-c26318fa7582"
                            label="37"
                            n="39"
-                           xml:id="edirom_measure_aff08d47-caf8-436c-b98e-a8c32259940d">
+                           xml:id="edirom_measure_116">
                      <staff n="1" xml:id="m-1408">
                         <layer n="1" xml:id="m-1409">
                            <rest dots="1"

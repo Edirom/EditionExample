@@ -9,7 +9,7 @@ declare option saxon:output "indent=yes";
 declare option saxon:output "saxon:indent-spaces=4";
 
 let $editionsContentsBasePath := 'content/sources/'
-let $sourceID := 'edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2'
+let $sourceID := 'edirom_source_1'
 
 let $sourceDoc := doc(concat($editionsContentsBasePath, $sourceID, '.xml'))
 
