@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="xar" name="EditionExample" basedir=".">
+    
+    <!-- import default properties -->
+    <property file="build.properties"/>
+    <xmlproperty file="expath-pkg.xml"/>
+    
+    <property name="project.version" value="${package(version)}"/>
+    <property name="project.name" value="${package(name)}"/>
+    
+    <target name="xar">
+        <mkdir dir="${dist.dir}"/>
+        <zip basedir="." destfile="${dist.dir}/${project.app}-${project.version}.xar" excludes="${dist.dir}/"/>
+    </target>
+    
+</project>

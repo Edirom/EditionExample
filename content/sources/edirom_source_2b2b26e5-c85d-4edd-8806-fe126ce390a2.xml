@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="2013" xml:id="edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title type="uniform" xml:lang="de">Trüber Abschied (Erstdruck)</title>
+            </titleStmt>
+            <pubStmt/>
+        </fileDesc>
+        <sourceDesc>
+            <source>
+                <identifier type="siglum">Pr</identifier>
+                <identifier type="D-KA">M 313</identifier>
+                <titleStmt>
+                    <title>Erstdruck</title>
+                </titleStmt>
+                <pubStmt/>
+                <notesStmt>
+                    <annot plist="#overlay_1_1" type="overlay" xml:id="overlay_1">
+                        <title>sample SVG overlay</title>
+                    </annot>
+                </notesStmt>
+                <relationList>
+                    <relation rel="isEmbodimentOf" target="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9.xml#edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9_exp1" type="edirom"/>
+                </relationList>
+            </source>
+        </sourceDesc>
+    </meiHead>
+    <music>
+        <facsimile>
+            <surface lrx="3266" lry="4089" n="1" ulx="0" uly="0" xml:id="surface_a6a80c78-f933-4129-bda1-29e5dc37f4dd">
+                <graphic height="4089" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295250" type="facsimile" width="3266" xml:id="graphic_4ecc6be1-8660-4ced-95e0-59a91d84de39"/>
+            </surface>
+            <surface lrx="3266" lry="4089" n="2" label="2" ulx="0" uly="0" xml:id="surface_838fc989-0194-4b18-9627-8e04cfe7e91c">
+                <graphic height="4089" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295251" type="facsimile" width="3266" xml:id="graphic_a3c66e59-5f6c-4b0b-9614-01a7be3ec6a8"/>
+                <zone lrx="1074" lry="1258" type="measure" ulx="478" uly="596" xml:id="edirom_zone_ede27fd1-4107-4f24-8bbe-ed623955f7f3"/>
+                <zone lrx="1452" lry="1258" type="measure" ulx="1064" uly="596" xml:id="edirom_zone_2d46a01c-f1bc-4bcc-ac3e-518ddd6f0d31"/>
+                <zone lrx="1762" lry="1258" type="measure" ulx="1440" uly="596" xml:id="edirom_zone_9edce475-aa59-4f0b-8d2d-af0c0f8a7b3d"/>
+                <zone lrx="2118" lry="1258" type="measure" ulx="1756" uly="596" xml:id="edirom_zone_f834b9e7-c345-42eb-a2a0-3040d2fff28b"/>
+                <zone lrx="2754" lry="1258" type="measure" ulx="2110" uly="596" xml:id="edirom_zone_b2b2c2dd-74fe-4dca-8ca9-a79b2d3dad89"/>
+                <zone lrx="1146" lry="2026" type="measure" ulx="474" uly="1376" xml:id="edirom_zone_0487b2cd-2e35-4585-a907-8001e1e46afa"/>
+                <zone lrx="1448" lry="2026" type="measure" ulx="1134" uly="1376" xml:id="edirom_zone_5801ef1a-c510-416e-ab1a-ede024300189"/>
+                <zone lrx="1768" lry="2026" type="measure" ulx="1442" uly="1376" xml:id="edirom_zone_39fbd957-74c3-4b38-8626-35318511b2e7"/>
+                <zone lrx="2270" lry="2026" type="measure" ulx="1762" uly="1376" xml:id="edirom_zone_ac962903-13b4-4cfb-91e8-dd6b04e4ebe2"/>
+                <zone lrx="2760" lry="2026" type="measure" ulx="2264" uly="1376" xml:id="edirom_zone_0907558f-b18d-4644-9e8d-58a9701f9745"/>
+                <zone lrx="874" lry="2794" type="measure" ulx="486" uly="2128" xml:id="edirom_zone_8bbfc4a1-129b-4dd2-9e07-7abe0294b280"/>
+                <zone lrx="1160" lry="2794" type="measure" ulx="868" uly="2128" xml:id="edirom_zone_46c4c040-b8a5-4243-bdce-58750ae80019"/>
+                <zone lrx="1726" lry="2794" type="measure" ulx="1158" uly="2128" xml:id="edirom_zone_acb06b61-75e5-4b42-bc5d-0ff447d131ba"/>
+                <zone lrx="2236" lry="2794" type="measure" ulx="1724" uly="2128" xml:id="edirom_zone_8addfcc1-dc6a-4e83-bad4-c827b0c2f4ff"/>
+                <zone lrx="2766" lry="2794" type="measure" ulx="2234" uly="2128" xml:id="edirom_zone_1b641b82-3bc0-4463-a1dd-87bec4179e91"/>
+                <zone lrx="1224" lry="3544" type="measure" ulx="488" uly="2892" xml:id="edirom_zone_4effe8dc-f99b-4cd4-97ab-9e5056c370d4"/>
+                <zone lrx="1572" lry="3544" type="measure" ulx="1220" uly="2892" xml:id="edirom_zone_aefba8af-1107-4e61-905e-787e1f898174"/>
+                <zone lrx="1906" lry="3544" type="measure" ulx="1570" uly="2892" xml:id="edirom_zone_ff9f457a-4a61-4b40-8dfa-a89b3f89f08b"/>
+                <zone lrx="2508" lry="3544" type="measure" ulx="1904" uly="2892" xml:id="edirom_zone_3a7c7327-ed5e-4372-a42c-07ecd13b448a"/>
+                <zone lrx="2772" lry="3544" type="measure" ulx="2506" uly="2892" xml:id="edirom_zone_835664c5-77b5-4cb7-adea-fb8c918c99e1"/>
+                <svg:svg height="100%" width="100%" xml:id="overlay_1_1">
+                    <svg:desc>sample svg rect</svg:desc>
+                    <svg:g alignment-baseline="baseline">
+                        <svg:rect fill="none" height="100" stroke="red" stroke-width="3px" width="100" x="100" y="100"/>
+                    </svg:g>
+                </svg:svg>
+            </surface>
+            <surface lrx="3266" lry="4089" n="3" label="3" ulx="0" uly="0" xml:id="surface_930c6885-c1e2-4bd9-8e6d-737c59cf6771">
+                <graphic height="4089" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295252" type="facsimile" width="3266" xml:id="graphic_c002a233-f32b-41a6-b676-abbb2ac4601d"/>
+                <zone lrx="914" lry="1214" type="measure" ulx="548" uly="462" xml:id="edirom_zone_ea3b955b-86c2-4cac-9dde-4874bc5b7422"/>
+                <zone lrx="1532" lry="1214" type="measure" ulx="908" uly="462" xml:id="edirom_zone_b7890167-183f-4e08-a816-07883fe1edf8"/>
+                <zone lrx="2018" lry="1214" type="measure" ulx="1528" uly="462" xml:id="edirom_zone_52f36998-09e0-4140-b48c-bd8d4342e767"/>
+                <zone lrx="2524" lry="1214" type="measure" ulx="2016" uly="462" xml:id="edirom_zone_7d639f3e-8381-4c9d-a18d-f2e60f913797"/>
+                <zone lrx="2816" lry="1214" type="measure" ulx="2520" uly="462" xml:id="edirom_zone_bf2eb096-648a-42bc-97cf-878a5e8fc94c"/>
+                <zone lrx="1394" lry="2012" type="measure" ulx="550" uly="1274" xml:id="edirom_zone_0846ad1b-c176-439e-a965-1aed091ae56b"/>
+                <zone lrx="1982" lry="2012" type="measure" ulx="1388" uly="1274" xml:id="edirom_zone_03153aed-4629-4118-bdc7-c3c4157d1443"/>
+                <zone lrx="2498" lry="2012" type="measure" ulx="1974" uly="1274" xml:id="edirom_zone_e76eb229-6aae-4ba0-99b6-a361d4324fab"/>
+                <zone lrx="2822" lry="2012" type="measure" ulx="2494" uly="1274" xml:id="edirom_zone_7e9fab9f-10a5-4907-9c71-564ec18a1384"/>
+                <zone lrx="1302" lry="2728" type="measure" ulx="556" uly="2112" xml:id="edirom_zone_65991cfc-b5d6-45be-8717-687ebaad9ad4"/>
+                <zone lrx="1826" lry="2728" type="measure" ulx="1300" uly="2112" xml:id="edirom_zone_506df314-f441-4c30-9bd6-a71e76a34085"/>
+                <zone lrx="2366" lry="2728" type="measure" ulx="1822" uly="2112" xml:id="edirom_zone_5162e9d0-a64a-43ed-ad1f-6e7249daa6f0"/>
+                <zone lrx="2826" lry="2728" type="measure" ulx="2358" uly="2112" xml:id="edirom_zone_22d6ed49-ec26-41a7-bee3-88f79c0b4172"/>
+                <zone lrx="1006" lry="3534" type="measure" ulx="564" uly="2844" xml:id="edirom_zone_375233fc-200c-450f-b047-46cf868ed402"/>
+                <zone lrx="1246" lry="3534" type="measure" ulx="996" uly="2844" xml:id="edirom_zone_d81ec84c-58f8-4e41-baa7-11856ef8d84f"/>
+                <zone lrx="1790" lry="3534" type="measure" ulx="1240" uly="2844" xml:id="edirom_zone_d3378df4-07de-4c2b-a7b2-9809a811a3fb"/>
+                <zone lrx="2174" lry="3534" type="measure" ulx="1788" uly="2844" xml:id="edirom_zone_399a06ff-11c6-4370-9752-86dae4cd9b1e"/>
+                <zone lrx="2616" lry="3534" type="measure" ulx="2162" uly="2844" xml:id="edirom_zone_a5b0cfd1-0b0b-47d8-b5ed-1cc8ede1fc82"/>
+                <zone lrx="2838" lry="3534" type="measure" ulx="2610" uly="2844" xml:id="edirom_zone_e243867b-e071-418a-bc74-1022d950ad20"/>
+            </surface>
+            <surface lrx="3266" lry="4089" n="[6]" label="[6]" ulx="0" uly="0" xml:id="surface_5051a6c4-add9-4db9-94f3-e1229f7a8212">
+                <graphic height="4089" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295253" type="facsimile" width="3266" xml:id="graphic_3dcb150b-0f6f-40e9-b424-4f495ca9e72d"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv label="Trüber Abschied" xml:id="edirom_mdiv_0b0226bb-cf19-49a0-9587-1317fe1bfbd8">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <measure facs="#edirom_zone_ede27fd1-4107-4f24-8bbe-ed623955f7f3" label="0" n="1" type="upbeat" xml:id="edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3"/>
+                        <measure facs="#edirom_zone_2d46a01c-f1bc-4bcc-ac3e-518ddd6f0d31" label="1" n="2" xml:id="edirom_measure_1a33a36a-906a-4e45-9545-aa8d465bfe8b"/>
+                        <measure facs="#edirom_zone_9edce475-aa59-4f0b-8d2d-af0c0f8a7b3d" label="2" n="3" xml:id="edirom_measure_747caf9a-f0e5-431f-8209-d94642e75a5c"/>
+                        <measure facs="#edirom_zone_f834b9e7-c345-42eb-a2a0-3040d2fff28b" label="3" n="4" xml:id="edirom_measure_21956586-c822-4bdb-b19e-00ca0ccbe9d1"/>
+                        <measure facs="#edirom_zone_b2b2c2dd-74fe-4dca-8ca9-a79b2d3dad89" label="4" n="5" xml:id="edirom_measure_4248d364-fd7a-4090-8adc-ea8ccd8afb46"/>
+                        <sb/>
+                        <measure facs="#edirom_zone_0487b2cd-2e35-4585-a907-8001e1e46afa" label="5" n="6" xml:id="edirom_measure_75db15ab-9162-4098-9960-a5f1503eef1e"/>
+                        <measure facs="#edirom_zone_5801ef1a-c510-416e-ab1a-ede024300189" label="6" n="7" xml:id="edirom_measure_bb3ded4e-6dbf-41b2-a4ba-c4c759893371"/>
+                        <measure facs="#edirom_zone_39fbd957-74c3-4b38-8626-35318511b2e7" label="7" n="8" xml:id="edirom_measure_01bcb8d0-6fa6-49b5-9dc4-480ac8af744f"/>
+                        <measure facs="#edirom_zone_ac962903-13b4-4cfb-91e8-dd6b04e4ebe2" label="8" n="9" xml:id="edirom_measure_6c114e30-4375-4c3b-a326-f2d7b5d7c7af"/>
+                        <measure facs="#edirom_zone_0907558f-b18d-4644-9e8d-58a9701f9745" label="9" n="10" xml:id="edirom_measure_ecbf31cf-5302-4453-979e-250c313a7bbe"/>
+                        <sb/>
+                        <measure facs="#edirom_zone_8bbfc4a1-129b-4dd2-9e07-7abe0294b280" label="10" n="11" xml:id="edirom_measure_02b9b83a-f2bc-4fe6-ade9-390e0c53ae90"/>
+                        <measure facs="#edirom_zone_46c4c040-b8a5-4243-bdce-58750ae80019" label="11" n="12" xml:id="edirom_measure_47012eb8-1203-49f2-b0a8-c48ad1352d13"/>
+                        <measure facs="#edirom_zone_acb06b61-75e5-4b42-bc5d-0ff447d131ba" label="12" n="13" xml:id="edirom_measure_b9cc8d5d-a0c2-41da-966c-f1651193bf60"/>
+                        <measure facs="#edirom_zone_8addfcc1-dc6a-4e83-bad4-c827b0c2f4ff" label="13" n="14" xml:id="edirom_measure_0bada907-d72c-46a6-85a8-24896263ced1"/>
+                        <measure facs="#edirom_zone_1b641b82-3bc0-4463-a1dd-87bec4179e91" label="14" n="15" xml:id="edirom_measure_3fcf2b18-2243-46f0-9b41-d82dcb157371"/>
+                        <sb/>
+                        <measure facs="#edirom_zone_4effe8dc-f99b-4cd4-97ab-9e5056c370d4" label="15" n="16" xml:id="edirom_measure_f599d8d2-42f7-4729-a514-6f94aeea5be3"/>
+                        <measure facs="#edirom_zone_aefba8af-1107-4e61-905e-787e1f898174" label="16" n="17" xml:id="edirom_measure_62d99816-b848-47f2-b00b-487562300618"/>
+                        <measure facs="#edirom_zone_ff9f457a-4a61-4b40-8dfa-a89b3f89f08b" label="17" n="18" xml:id="edirom_measure_0c63a5b8-b121-49c2-afec-9fd218c23b70"/>
+                        <measure facs="#edirom_zone_3a7c7327-ed5e-4372-a42c-07ecd13b448a" label="18" n="19" xml:id="edirom_measure_56b16408-af82-4449-b388-0219e90f0b98"/>
+                        <measure facs="#edirom_zone_835664c5-77b5-4cb7-adea-fb8c918c99e1" label="19" n="20" xml:id="edirom_measure_8dff22c2-84f5-4662-aab3-c0ec808dd759"/>
+                        <pb/>
+                        <sb/>
+                        <measure facs="#edirom_zone_ea3b955b-86c2-4cac-9dde-4874bc5b7422" label="19'" n="21" xml:id="edirom_measure_00fa7c21-f8e4-413d-82ea-a5c622530795"/>
+                        <measure facs="#edirom_zone_b7890167-183f-4e08-a816-07883fe1edf8" label="20" n="22" xml:id="edirom_measure_f0a0539e-e0c0-4b80-aa98-7d2a7bec9ed4"/>
+                        <measure facs="#edirom_zone_52f36998-09e0-4140-b48c-bd8d4342e767" label="21" n="23" xml:id="edirom_measure_068d945b-8309-4992-8015-605bd8e7ede8"/>
+                        <measure facs="#edirom_zone_7d639f3e-8381-4c9d-a18d-f2e60f913797" label="22" n="24" xml:id="edirom_measure_8a7eccb0-152b-41fd-9934-0dfa778a7b19"/>
+                        <measure facs="#edirom_zone_bf2eb096-648a-42bc-97cf-878a5e8fc94c" label="23" n="25" xml:id="edirom_measure_8705c90f-1f6f-4d29-bab3-698880306d64"/>
+                        <sb/>
+                        <measure facs="#edirom_zone_0846ad1b-c176-439e-a965-1aed091ae56b" label="24" n="26" xml:id="edirom_measure_53b9bbb4-1d3c-4e19-ac06-868a1abf6d9d"/>
+                        <measure facs="#edirom_zone_03153aed-4629-4118-bdc7-c3c4157d1443" label="25" n="27" xml:id="edirom_measure_9014023f-c926-46bd-97cb-531c07f7a468"/>
+                        <measure facs="#edirom_zone_e76eb229-6aae-4ba0-99b6-a361d4324fab" label="26" n="28" xml:id="edirom_measure_081e1790-d79c-4742-a801-1bc9490ac8b0"/>
+                        <measure facs="#edirom_zone_7e9fab9f-10a5-4907-9c71-564ec18a1384" label="27" n="29" xml:id="edirom_measure_4a9a5a6c-6718-4411-8fad-9205f25900fa"/>
+                        <sb/>
+                        <measure facs="#edirom_zone_65991cfc-b5d6-45be-8717-687ebaad9ad4" label="28" n="30" xml:id="edirom_measure_0e55fb78-4cc2-4cda-94e3-a342a1700c39"/>
+                        <measure facs="#edirom_zone_506df314-f441-4c30-9bd6-a71e76a34085" label="29" n="31" xml:id="edirom_measure_5ba0269a-8602-499b-8e37-69d1c4454a8e"/>
+                        <measure facs="#edirom_zone_5162e9d0-a64a-43ed-ad1f-6e7249daa6f0" label="30" n="32" xml:id="edirom_measure_d212c65d-3817-4153-9984-5c4c1e7e3874"/>
+                        <measure facs="#edirom_zone_22d6ed49-ec26-41a7-bee3-88f79c0b4172" label="31" n="33" xml:id="edirom_measure_fb41b2e1-97b9-4530-b0bd-2d229899eeeb"/>
+                        <sb/>
+                        <measure facs="#edirom_zone_375233fc-200c-450f-b047-46cf868ed402" label="32" n="34" xml:id="edirom_measure_605983d8-5fe8-4901-8c0d-a42ab790966c"/>
+                        <measure facs="#edirom_zone_d81ec84c-58f8-4e41-baa7-11856ef8d84f" label="33" n="35" xml:id="edirom_measure_c79e4d25-0a13-4b50-8b24-5d6ac454b557"/>
+                        <measure facs="#edirom_zone_d3378df4-07de-4c2b-a7b2-9809a811a3fb" label="34" n="36" xml:id="edirom_measure_3ce3a0c8-5c66-4bad-8e12-2958f2263f9f"/>
+                        <measure facs="#edirom_zone_399a06ff-11c6-4370-9752-86dae4cd9b1e" label="35" n="37" xml:id="edirom_measure_761c74f5-27ad-4df3-bcc7-ced8dd646748"/>
+                        <measure facs="#edirom_zone_a5b0cfd1-0b0b-47d8-b5ed-1cc8ede1fc82" label="36" n="38" xml:id="edirom_measure_92b50086-5b06-4b74-9116-c0d42f93379a"/>
+                        <measure facs="#edirom_zone_e243867b-e071-418a-bc74-1022d950ad20" label="37" n="39" xml:id="edirom_measure_773aeb3b-3cc9-4833-a687-bc046769508f"/>
+                    </section>
+                    <div type="songtext">
+                        <lg>
+                            <l>Das Posthorn bläst eine traurige Weis', ade!</l>
+                            <l>Die Wälder starren in Schne und Eis, ade!</l>
+                            <l>Nun muß ich hinaus in die weite Fern',</l>
+                            <l>holdseliges Mädchen bei dir wär' ich gern.</l>
+                            <l>Ade! ade, ade nun, mein Schatz, ade.</l>
+                        </lg>
+                        <lg>
+                            <l>Wie waren die Menschen so falsch zu mir, ade!</l>
+                            <l>Herzliebe Maid, Gott sei mit dir, ade!</l>
+                            <l>Wie trüb' doch die Sonne herunterscheint,</l>
+                            <l>mein armes Herze zuckt und weint.</l>
+                            <l>Ade! ade, ade nun, mein Schatz, ade.</l>
+                        </lg>
+                        <lg>
+                            <l>Und zieht bald der Frühling in's Land herein, ade.</l>
+                            <l>Dann wird meine Wallfahrt zu Ende wohl sein, ade.</l>
+                            <l>Dann tragen die Lüfte von meinem Grab,</l>
+                            <l>einen Gruß noch zu ihr, die so lieb ich hab',</l>
+                            <l>ade! ade! ade nun, mein Schatz, ade!</l>
+                        </lg>
+                    </div>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>

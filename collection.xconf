@@ -1,0 +1,55 @@
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:tei="http://www.tei-c.org/ns/1.0">
+<!--         Full text index based on Lucene -->
+        <lucene>
+            <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
+            <analyzer id="ws" class="org.apache.lucene.analysis.core.WhitespaceAnalyzer"/>
+            <text qname="tei:title" boost="2.0"/>
+            <text qname="@type" analyzer="ws"/>
+            <text qname="@key" analyzer="ws"/>
+            <text qname="tei:persName" boost="2.0"/>
+            <text qname="tei:orgName" boost="2.0"/>
+            <text qname="tei:settlement" boost="2.0"/>
+            
+        </lucene>
+        
+        <!-- Range indexes -->
+        <range>
+            <create qname="tei:title" type="xs:string"/>
+            <create qname="tei:bibl" type="xs:string"/>
+            <create qname="tei:persName" type="xs:string"/>
+            <create qname="tei:persName" type="xs:string">
+                <field name="persName-key" match="@key" type="xs:string"/>
+            </create>
+            <create qname="tei:objectDesc">
+                <field name="objectDesc-form" match="@form" type="xs:string"/>
+            </create>
+            <create qname="tei:correspAction">
+                <field name="correspAction-type" match="@type" type="xs:string"/>
+            </create>
+            <create qname="tei:date">
+                <field name="date-type" match="@type" type="xs:string"/>
+                <field name="date-when" match="@when" type="xs:date"/>
+            </create>
+            <create qname="tei:note">
+                <field name="note-type" match="@type" type="xs:string"/>
+            </create>
+            <create qname="@type" type="xs:string"/>
+            <create qname="tei:collection" type="xs:string">
+                <field name="collection-key" match="@key" type="xs:string"/>
+            </create>
+            <create qname="tei:repository" type="xs:string">
+                <field name="repository-key" match="@key" type="xs:string"/>
+            </create>
+            
+            <!--<create qname="author" type="xs:string"/>
+            <create qname="year" type="xs:integer"/>-->
+        </range>
+        <!-- N-gram indexes -->
+        <!--<ngram qname="author"/>
+        <ngram qname="title"/>-->
+    </index>
+    <triggers>
+        <trigger event="store,update,remove,create,rename,delete" class="org.exist.collections.triggers.HistoryTrigger"/>
+    </triggers>
+</collection>

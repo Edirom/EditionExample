@@ -45,11 +45,12 @@
         </encodingDesc>
         <revisionDesc status="candidate">
             <change who="DR" when="2016-03-16">Text mit wichtigsten Metadaten angelegt</change>
+            <change who="DeRi" when="2022-01-19">Entwurf für Inhalt</change>
         </revisionDesc>
     </teiHeader>
   <text>
       <body>
-         <p>Some text here.</p>
+         <p>Dies ist eine Beispieledition, die zu Demonstrationszwecken geschaffen wurde. Da die Funktionalitäten der Edirom Online im Fokus stehen sollen, wurde hier bewusst ein kurzes musikalisches Werk ausgewählt, das eine Edition mit überschaubarem Kritischen Bericht ermöglichte.</p>
       </body>
   </text>
 </TEI>
