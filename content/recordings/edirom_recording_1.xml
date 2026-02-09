@@ -4,16 +4,16 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Max Reger Op. 67 - Samples</title>
+                <title>Collection of Chord Samples</title>
             </titleStmt>
             <pubStmt/>
             <sourceDesc>
                 <source>
                     <titleStmt>
-                        <title type="main" xml:lang="de">Max Reger Collection</title>
+                        <title type="main" xml:lang="de">Chord Samples</title>
                         <respStmt>
                             <resp></resp>
-                            <persName role="artist">Max Reger</persName>
+                            <persName role="artist">Wikimedia Commons</persName>
                         </respStmt>
                     </titleStmt>
                 </source>        
@@ -21,14 +21,26 @@
             <componentGrp>
                 <source n="1" xml:id="recording-1">
                     <titleStmt>
-                        <title type="main" xml:lang="de">Op.67 No.45</title>
-                        <title type="sub" xml:lang="de">Wer nur den lieben Gott lässt walten</title>
+                        <title type="main" xml:lang="de">Chord 1</title>
+                        <title type="sub" xml:lang="de">G-Eb-G</title>
                     </titleStmt>
                 </source>
                 <source n="2" xml:id="recording-2">
                     <titleStmt>
-                        <title type="main" xml:lang="de">Op.67 No.25</title>
-                        <title type="sub" xml:lang="de">Machs mit mir, Gott, nach deiner Güt</title>
+                        <title type="main" xml:lang="de">Chord 2</title>
+                        <title type="sub" xml:lang="de">D-G-D-G</title>
+                    </titleStmt>
+                </source>
+                <source n="3" xml:id="recording-3">
+                    <titleStmt>
+                        <title type="main" xml:lang="de">Chord 3</title>
+                        <title type="sub" xml:lang="de">Bb-D-G</title>
+                    </titleStmt>
+                </source>
+                <source n="4" xml:id="recording-4">
+                    <titleStmt>
+                        <title type="main" xml:lang="de">Chord 4</title>
+                        <title type="sub" xml:lang="de">Ab-C-D-G</title>
                     </titleStmt>
                 </source>
             </componentGrp>
@@ -47,10 +59,16 @@
         <facsimile/>
         <performance>
             <recording decls="#recording-1">
-                <avFile target="https://upload.wikimedia.org/wikipedia/commons/e/ec/Reger_Op.67_No.45_Wer_nur_den_lieben_Gott_l%C3%A4sst_walten.ogg" mimetype="audio/ogg"/>
+                <avFile target="https://upload.wikimedia.org/wikipedia/commons/4/4b/Chord4.1_%28G-Eb-G%29.mp3" mimetype="audio/mp3"/>
             </recording>
             <recording decls="#recording-2">
-                <avFile target="https://upload.wikimedia.org/wikipedia/commons/9/94/Reger_Mach%27s_mit_mir%2C_Gott%2C_nach_deiner_G%C3%BCt_Op_67_No_25.ogg" mimetype="audio/ogg"/>
+                <avFile target="https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2c/Chord5_%28D-G-D-G%29.mp3/Chord5_%28D-G-D-G%29.mp3.ogg" mimetype="audio/ogg"/>
+            </recording>
+            <recording decls="#recording-3">
+                <avFile target="https://upload.wikimedia.org/wikipedia/commons/4/48/Chord6_%28Bb-D-G%29.mp3" mimetype="audio/mp3"/>
+            </recording>
+            <recording decls="#recording-4">
+                <avFile target="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Chord7_%28Ab-C-D-G%29.mp3/Chord7_%28Ab-C-D-G%29.mp3.ogg" mimetype="audio/ogg"/>
             </recording>
         </performance>
         <body/>
