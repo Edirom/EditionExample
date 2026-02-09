@@ -89,8 +89,8 @@
                               sortNo="1"
                               targets="xmldb:exist:///db/apps/edirom/edition-example/content/recordings/edirom_recording_1.xml">
                         <names>
-                            <name xml:lang="de">Max Reger Op. 67 - Samples</name>
-                            <name xml:lang="en">Max Reger Op. 67 - Samples</name>
+                            <name xml:lang="de">Akkord Beispiele</name>
+                            <name xml:lang="en">Chord Samples</name>
                         </names>
                     </navigatorItem>
                 </navigatorCategory>

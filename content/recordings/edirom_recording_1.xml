@@ -4,13 +4,15 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Collection of Chord Samples</title>
+                <title xml:lang="en">Collection of Chord Samples</title>
+                <title xml:lang="de">Sammlung von Akkordbeispielen</title>
             </titleStmt>
             <pubStmt/>
             <sourceDesc>
                 <source>
                     <titleStmt>
-                        <title type="main" xml:lang="de">Chord Samples</title>
+                        <title type="main" xml:lang="de">Beispiele von Akkorden</title>
+                        <title type="main" xml:lang="en">Samples of chords</title>
                         <respStmt>
                             <resp></resp>
                             <persName role="artist">Wikimedia Commons</persName>
