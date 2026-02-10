@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schemata/rng/freidi-schema-musicSource.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schemata/rng/freidi-schema-musicSource.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="recording-1">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Collection of Chord Samples</title>
+                <title xml:lang="de">Sammlung von Akkordbeispielen</title>
+            </titleStmt>
+            <pubStmt/>
+            <sourceDesc>
+                <source>
+                    <titleStmt>
+                        <title type="main" xml:lang="de">Beispiele von Akkorden</title>
+                        <title type="main" xml:lang="en">Samples of chords</title>
+                        <respStmt>
+                            <resp></resp>
+                            <persName role="artist">Wikimedia Commons</persName>
+                        </respStmt>
+                    </titleStmt>
+                </source>        
+            </sourceDesc>
+            <componentGrp>
+                <source n="1" xml:id="recording-1">
+                    <titleStmt>
+                        <title type="main" xml:lang="de">Chord 1</title>
+                        <title type="sub" xml:lang="de">G-Eb-G</title>
+                    </titleStmt>
+                </source>
+                <source n="2" xml:id="recording-2">
+                    <titleStmt>
+                        <title type="main" xml:lang="de">Chord 2</title>
+                        <title type="sub" xml:lang="de">D-G-D-G</title>
+                    </titleStmt>
+                </source>
+                <source n="3" xml:id="recording-3">
+                    <titleStmt>
+                        <title type="main" xml:lang="de">Chord 3</title>
+                        <title type="sub" xml:lang="de">Bb-D-G</title>
+                    </titleStmt>
+                </source>
+                <source n="4" xml:id="recording-4">
+                    <titleStmt>
+                        <title type="main" xml:lang="de">Chord 4</title>
+                        <title type="sub" xml:lang="de">Ab-C-D-G</title>
+                    </titleStmt>
+                </source>
+            </componentGrp>
+        </fileDesc>
+        <encodingDesc xmlns:xlink="http://www.w3.org/1999/xlink">
+            <projectDesc xml:lang="de">
+                <p>Die Edition Example enthält Beispiel-Encodings für ausgewählte Views.</p>
+            </projectDesc>
+            <samplingDecl xml:lang="de">
+                <p>Frei ausgewählte Samples</p>
+            </samplingDecl>
+        </encodingDesc>
+        <revisionDesc/>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <performance>
+            <recording decls="#recording-1">
+                <avFile target="https://upload.wikimedia.org/wikipedia/commons/4/4b/Chord4.1_%28G-Eb-G%29.mp3" mimetype="audio/mp3"/>
+            </recording>
+            <recording decls="#recording-2">
+                <avFile target="https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2c/Chord5_%28D-G-D-G%29.mp3/Chord5_%28D-G-D-G%29.mp3.ogg" mimetype="audio/ogg"/>
+            </recording>
+            <recording decls="#recording-3">
+                <avFile target="https://upload.wikimedia.org/wikipedia/commons/4/48/Chord6_%28Bb-D-G%29.mp3" mimetype="audio/mp3"/>
+            </recording>
+            <recording decls="#recording-4">
+                <avFile target="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Chord7_%28Ab-C-D-G%29.mp3/Chord7_%28Ab-C-D-G%29.mp3.ogg" mimetype="audio/ogg"/>
+            </recording>
+        </performance>
+        <body/>
+    </music>
+</mei>
