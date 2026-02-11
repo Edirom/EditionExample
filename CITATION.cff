@@ -20,6 +20,12 @@ authors:
   - given-names: Tobias
     family-names: Bachmann
     orcid: https://orcid.org/0009-0003-9952-7899
+  - given-names: Dennis
+    family-names: Ried
+    orcid: https://orcid.org/ 0000-0001-5545-2088
+  - given-names: Irmlind
+    family-names: Capelle
+    orcid: https://orcid.org/0000-0001-8897-2880
 repository-code: https://github.com/Edirom/EditionExample
 commit: 1234
 abstract: >-
