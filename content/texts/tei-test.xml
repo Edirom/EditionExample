@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/4.9.0/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/4.9.0/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TEI Test File for the Edirom</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publicly available under a CC0 license</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <rendition xml:id="ab">border: 1px solid blue</rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="border:1px solid red">This text should appear with a red border due to its <code>style</code> attribute.</p>
+            <ab rendition="#ab">This text should appear with a blue border due to its <code>rendition</code> attribute</ab>
+            <p>For more information regarding styling of TEI files see <ptr target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ST.html#STGAre"/>.</p>
+        </body>
+    </text>
+</TEI>

@@ -29,6 +29,12 @@
                             <name xml:lang="en">preface</name>
                         </names>
                     </navigatorItem>
+                    <navigatorItem xml:id="navItem-0-3" sortNo="3" targets="xmldb:exist:///db/apps/edirom/edition-example/content/texts/tei-test.xml">
+                        <names>
+                            <name xml:lang="de">TEI Testdatei</name>
+                            <name xml:lang="en">TEI test file</name>
+                        </names>
+                    </navigatorItem>
                 </navigatorCategory>
                 <navigatorCategory xml:id="navCategory-1" sortNo="2">
                     <names>
