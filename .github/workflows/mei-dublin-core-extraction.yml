@@ -1,0 +1,112 @@
+name: Extraction of Dublin Core Metadata from MEI Files
+
+on:
+  push:
+    branches: 
+      - ftr-39-add-actions-for-metadata-validation-and-extraction
+      - develop
+  pull_request:
+    branches: 
+      - ftr-39-add-actions-for-metadata-validation-and-extraction
+      - develop
+  workflow_dispatch:
+
+jobs:
+  extract-dublin-core:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout current Repository
+        uses: actions/checkout@v6
+        with:
+          ref: develop
+
+      - name: Checkout Tools Repository
+        uses: actions/checkout@v6
+        with:
+          repository: Edirom/mei-metadata-toolkit
+          ref: main
+          path: mei-metadata-toolkit
+
+      - name: Create necessary directories
+        run: |
+          mkdir -p .github/workflow-reports
+          mkdir -p metadata/dc
+          echo "OUTPUT_DIR=$(pwd)/metadata/dc" >> $GITHUB_ENV
+      - name: Install Java and Saxon-HE
+        run: |
+          REPORT="$REPORT_FILE"
+          echo "Installing Java..."
+          sudo apt-get update
+          sudo apt-get install -y default-jre-headless
+          
+          echo "Downloading Saxon-HE..."
+          # Using the 12.9 version as requested
+          wget -q https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE12-9/SaxonHE12-9J.zip
+          unzip -q SaxonHE12-9J.zip
+ 
+          # Verify the jar exists
+          if [ ! -f "saxon-he-12.9.jar" ]; then
+            echo "Error: Saxon JAR not found after unzip."
+            exit 1
+          fi
+          
+          echo "SAXON_JAR=$(pwd)/saxon-he-12.9.jar" >> $GITHUB_ENV
+          echo "Java Version:"
+          java -version
+
+      - name: Find all XML files and extract Dublin Core metadata
+        env:
+          REPORT_FILE: ".github/workflow-reports/mei-dublin-core-extraction.md"
+        run: |
+          REPORT="$REPORT_FILE"
+          # Initialize the report
+          echo "### Dublin Core Extraction Report" > "$REPORT"
+          echo "" >> "$REPORT"
+          echo "Branch: ${{ github.ref_name }}" >> "$REPORT"
+          echo "Generated: $(date)" >> "$REPORT"
+          echo "" >> "$REPORT"
+          echo "Found $(wc -l < xml_files.txt) XML files to process." >> "$REPORT"
+          echo "" >> "$REPORT"
+          find . -type f -name "*.xml" \
+            ! -path "./.github/*" \
+            ! -path "./vendor/*" \
+            ! -path "./.git/*" \
+            ! -name "*.xml.bak" \
+            > xml_files.txt
+          while IFS= read -r file; do
+            java -jar "$SAXON_JAR" -o:"$OUTPUT_DIR/$(basename "$file" .xml)-dc.xml" -s:"$file" -xsl:"$(pwd)/mei-metadata-toolkit/src/xsl/mei2dc.xsl"
+            output_file="$OUTPUT_DIR/$(basename "$file" .xml)-dc.xml"
+            if [ -f "$output_file" ]; then
+              if grep -q "<oai_dc:dc" "$output_file"; then
+                echo "Dublin Core metadata extracted successfully to $output_file" >> "$REPORT"
+              else
+                echo "No Dublin Core metadata found in $file." >> "$REPORT"
+                rm "$output_file"
+              fi
+            else
+              echo "Failed to create output file for $file" >> "$REPORT"
+            fi
+            echo "" >> "$REPORT"
+            
+          done < xml_files.txt
+          echo "Dublin Core extraction completed. Extracted metadata files are located in $OUTPUT_DIR." >> "$REPORT"
+          cat "$REPORT"
+          
+      - name: Upload Validation Report as Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dublin-core-extraction-report
+          path: .github/workflow-reports/mei-dublin-core-extraction.md
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .github/workflow-reports/mei-dublin-core-extraction.md
+          git add metadata/dc/*.xml
+          git commit -m "Update Dublin Core extraction report" || echo "No changes to commit"
+          git push
+          # Note: The 'git push' step will fail in Pull Request workflows unless you use a specific token
+        

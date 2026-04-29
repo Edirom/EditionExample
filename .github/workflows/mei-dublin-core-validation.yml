@@ -1,0 +1,139 @@
+name: Validation of Dublin Core compliance for MEI Files
+
+on:
+  push:
+    branches: 
+      - ftr-39-add-actions-for-metadata-validation-and-extraction
+      - develop
+  pull_request:
+    branches: 
+      - ftr-39-add-actions-for-metadata-validation-and-extraction
+      - develop
+  workflow_dispatch:
+
+jobs:
+  validate-schematron:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout current Repository
+        uses: actions/checkout@v6
+        with:
+          ref: develop
+
+      - name: Checkout Tools Repository
+        uses: actions/checkout@v6
+        with:
+          repository: Edirom/mei-metadata-toolkit
+          ref: main
+          path: mei-metadata-toolkit
+
+      - name: Create necessary directories
+        run: |
+          mkdir -p .github/workflow-reports
+
+      - name: Install Java and Saxon-HE
+        run: |
+          echo "Installing Java..."
+          sudo apt-get update
+          sudo apt-get install -y default-jre-headless
+          
+          echo "Downloading Saxon-HE..."
+          # Using the 12.9 version as requested
+          wget -q https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE12-9/SaxonHE12-9J.zip
+          unzip -q SaxonHE12-9J.zip
+ 
+          # Verify the jar exists
+          if [ ! -f "saxon-he-12.9.jar" ]; then
+            echo "Error: Saxon JAR not found after unzip."
+            exit 1
+          fi
+          
+          echo "SAXON_JAR=$(pwd)/saxon-he-12.9.jar" >> $GITHUB_ENV
+          echo "Java Version:"
+          java -version
+
+      - name: Find all XML files and validate against Schematron
+        id: validation
+        env:
+          SCHEMATRON_FILE: "mei-metadata-toolkit/src/schema/mei-dc.sch"
+          REPORT_FILE: ".github/workflow-reports/mei-dublin-core-validation.md"
+        run: |
+
+          find . -type f -name "*.xml" \
+            ! -path "./.github/*" \
+            ! -path "./vendor/*" \
+            ! -path "./.git/*" \
+            ! -name "*.xml.bak" \
+            > xml_files.txt
+
+          REPORT="$REPORT_FILE"
+          
+          # Initialize the report
+          echo "### Schematron Validation Report" > "$REPORT"
+          echo "Generated: $(date)" >> "$REPORT"
+          echo "" >> "$REPORT"
+          echo "Branch: ${{ github.ref_name }}" >> "$REPORT"
+          echo "" >> "$REPORT"
+          echo "Found $(wc -l < xml_files.txt) XML files to process." >> "$REPORT"
+          echo "" >> "$REPORT"
+          
+          # Read the file list
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            
+            TOTAL_FILES=$((TOTAL_FILES + 1))
+            echo "Processing file $TOTAL_FILES/$TOTAL_FILES: $file"
+            
+            echo "Validating: $file" >> "$REPORT"
+            
+            # Run Saxon-HE
+            # -s: Source XML file
+            # -schematron: The Schematron schema file
+            # 2>&1: Capture both stdout and stderr
+
+
+            # Verify the schematron file exists
+            if [ ! -f "$SCHEMATRON_FILE" ]; then
+              echo "Error: Schematron file not found."
+              exit 1
+            fi
+      
+
+            output=$(java -jar "$SAXON_JAR" -s="$file" -schematron="$SCHEMATRON_FILE" 2>&1)
+            exit_code=$?
+            set -e
+            
+            if [ $exit_code -eq 0 ]; then
+              echo "  ✅ Status: PASSED" >> "$REPORT"
+              echo "" >> "$REPORT"
+              PASSED_FILES=$((PASSED_FILES + 1))
+            else
+              ALL_SUCCESS=false
+              echo "  ❌ Status: FAILED" >> "$REPORT"
+              echo "  --- Error Messages ---" >> "$REPORT"
+              # Print the error output
+              echo "$output" >> "$REPORT"
+              echo "" >> "$REPORT"
+              FAILED_FILES=$((FAILED_FILES + 1))
+            fi
+          done < xml_files.txt
+          
+          cat "$REPORT"
+
+      - name: Upload Validation Report as Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mei-dc-validation-report
+          path: .github/workflow-reports/mei-dc-validation_report.md
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .github/workflow-reports/mei-dc-validation_report.md
+          git commit -m "Update Dublin Core validation report" || echo "No changes to commit"
+          git push
+          # Note: The 'git push' step will fail in Pull Request workflows unless you use a specific token
+       

@@ -1,0 +1,116 @@
+name: Extraction of Citation File Format Metadata from MEI Files
+
+on:
+  push:
+    branches: 
+      - ftr-39-add-actions-for-metadata-validation-and-extraction
+      - develop
+  pull_request:
+    branches: 
+      - ftr-39-add-actions-for-metadata-validation-and-extraction
+      - develop
+  workflow_dispatch:
+
+jobs:
+  extract-citation-file-format:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout current Repository
+        uses: actions/checkout@v6
+        with:
+          ref: develop
+          
+      - name: Checkout Tools Repository
+        uses: actions/checkout@v6
+        with:
+          repository: Edirom/mei-metadata-toolkit
+          ref: main
+          path: mei-metadata-toolkit
+
+      - name: Create necessary directories
+        run: |
+          mkdir -p .github/workflow-reports
+          mkdir -p metadata/cff
+          echo "OUTPUT_DIR=$(pwd)/metadata/cff" >> $GITHUB_ENV
+
+      - name: Install Java and Saxon-HE
+        run: |
+          REPORT="$REPORT_FILE"
+          echo "Installing Java..."
+          sudo apt-get update
+          sudo apt-get install -y default-jre-headless
+          
+          echo "Downloading Saxon-HE..."
+          # Using the 12.9 version as requested
+          wget -q https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE12-9/SaxonHE12-9J.zip
+          unzip -q SaxonHE12-9J.zip
+ 
+          # Verify the jar exists
+          if [ ! -f "saxon-he-12.9.jar" ]; then
+            echo "Error: Saxon JAR not found after unzip."
+            exit 1
+          fi
+          
+          echo "SAXON_JAR=$(pwd)/saxon-he-12.9.jar" >> $GITHUB_ENV
+          echo "Java Version:"
+          java -version
+
+      - name: Find all XML files and extract Citation File Format metadata
+        env:
+          REPORT_FILE: ".github/workflow-reports/mei-citation-file-format-extraction.md"
+        run: |
+          REPORT="$REPORT_FILE"
+
+          find . -type f -name "*.xml" \
+            ! -path "./.github/*" \
+            ! -path "./vendor/*" \
+            ! -path "./.git/*" \
+            ! -name "*.xml.bak" \
+            > xml_files.txt
+
+          # write date and time to report
+          echo "Citation File Format metadata extraction started at $(date)" >> "$REPORT"
+          echo "Found $(wc -l < xml_files.txt) XML files to process." >> "$REPORT"
+
+          # prepare file list for XSLT processing
+          input_files=""
+          while IFS= read -r file; do
+            input_files="$input_files $file"
+          done < xml_files.txt
+          echo "INPUT_FILES=$input_files" >> $GITHUB_ENV
+
+          # run XSLT transformation to extract CFF metadata and provide input files as parameter
+          java -jar "$SAXON_JAR" -o:"$OUTPUT_DIR/CITATION.cff" -s:"$input_files" -xsl:"$(pwd)/mei-metadata-toolkit/src/xsl/mei2cff.xsl" -param input-files "'$input_files'"
+          
+          output_file="$OUTPUT_DIR/CITATION.cff"
+
+          if [ -f "$output_file" ]; then
+              echo "Citation File Format metadata extracted successfully to $output_file" >> "$REPORT"
+          else
+            echo "Failed to create output file for $file" >> "$REPORT"
+          fi
+
+          echo "" >> "$REPORT"
+
+          cat "$REPORT"
+
+
+      - name: Upload Validation Report as Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: citation-file-format-extraction-report
+          path: .github/workflow-reports/mei-citation-file-format-extraction.md
+
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .github/workflow-reports/mei-citation-file-format-extraction.md
+          git add metadata/cff/CITATION.cff
+          git commit -m "Update Citation File Format extraction report" || echo "No changes to commit"
+          git push
+          # Note: The 'git push' step will fail in Pull Request workflows unless you use a specific token
+        
