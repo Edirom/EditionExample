@@ -6,8 +6,31 @@
             <titleStmt>
                 <title xml:lang="en">Collection of Chord Samples</title>
                 <title xml:lang="de">Sammlung von Akkordbeispielen</title>
-            </titleStmt>
-            <pubStmt/>
+                <keywords>music edition, recording</keywords>
+            </titleStmt>          
+            <editionStmt>
+                <edition>
+                    <title>Edition Example</title>
+                    <repository>https://github.com/Edirom/EditionExample</repository>
+                    <editor>
+                        <persName>Benjamin W. Bohl</persName>
+                        <persName>Daniel Jettka</persName>
+                        <persName>Daniel Röwenstrunk</persName>
+                        <persName>Kristin Herold</persName>
+                        <persName>Peter Stadler</persName>
+                        <persName>Tobias Bachmann</persName>
+                    </editor>
+                </edition>
+            </editionStmt>
+            <pubStmt>
+                <publisher>
+                    <name>Virtueller Forschungsverbund Edirom (ViFE)</name>
+                </publisher>
+                <date>2026-04-22</date>
+                <availability>
+                    <identifier>CC-BY-4.0</identifier>
+                </availability>
+            </pubStmt>
             <sourceDesc>
                 <source>
                     <titleStmt>
