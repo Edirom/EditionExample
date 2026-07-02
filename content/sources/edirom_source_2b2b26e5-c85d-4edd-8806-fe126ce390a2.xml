@@ -77,6 +77,8 @@
                      type="facsimile"
                      width="3266"
                      xml:id="graphic_a3c66e59-5f6c-4b0b-9614-01a7be3ec6a8"/>
+             <zone type="rastral_first" ulx="804" uly="686" lrx="834" lry="764"/>
+             <zone type="rastral_last" ulx="521" uly="3418" lrx="552" lry="3498"/>
             <zone lrx="1074"
                   lry="1258"
                   type="measure"
