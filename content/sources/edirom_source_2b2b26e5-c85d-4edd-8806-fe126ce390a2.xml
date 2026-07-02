@@ -21,7 +21,19 @@
             </application>
          </appInfo>
       </encodingDesc>
-      <manifestationList>
+      <workList>
+            <work>
+                <title>Trüber Abschied</title>
+                <composer>Ludwig Baumann</composer>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes label="Singstimme" xml:id="singstimme" />
+                        <perfRes label="Klavier" xml:id="klavier" />
+                    </perfResList>
+                </perfMedium>
+            </work>
+        </workList>
+        <manifestationList>
          <manifestation singleton="true">
             <identifier type="siglum">Pr</identifier>
             <identifier type="D-KA">M 313</identifier>
