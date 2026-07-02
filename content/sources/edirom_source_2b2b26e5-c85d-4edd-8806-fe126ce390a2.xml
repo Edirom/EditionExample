@@ -355,7 +355,20 @@
          <mdiv label="Trüber Abschied"
                xml:id="edirom_mdiv_0b0226bb-cf19-49a0-9587-1317fe1bfbd8">
             <score>
-               <scoreDef/>
+                <scoreDef keysig="0" meter.count="4" meter.unit="4" meter.sym="common" >
+                    <staffGrp>
+                        <staffGrp label="Singstimme" decls="#singstimme">
+                            <staffDef clef.line="2" clef.shape="G" lines="5" n="1">
+                                <label>Singstimme</label>
+                            </staffDef>
+                        </staffGrp>
+                        <staffGrp label="Klavier" decls="#klavier">
+                            <label>Klavier</label>
+                            <staffDef clef.line="2" clef.shape="G" lines="5" n="2"/>
+                            <staffDef clef.shape="F" clef.line="4" lines="4" n="3"/>
+                        </staffGrp>
+                    </staffGrp>
+               </scoreDef>
                <section>
                   <measure facs="#edirom_zone_ede27fd1-4107-4f24-8bbe-ed623955f7f3"
                            label="0"
