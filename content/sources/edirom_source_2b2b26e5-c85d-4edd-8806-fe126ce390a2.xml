@@ -90,38 +90,58 @@
                      width="3266"
                      xml:id="graphic_a3c66e59-5f6c-4b0b-9614-01a7be3ec6a8"/>
              <zone type="rastral_first" ulx="804" uly="686" lrx="834" lry="764"/>
-             <zone type="rastral_last" ulx="521" uly="3418" lrx="552" lry="3498"/>
+             <zone type="rastral_last" ulx="786" uly="1156" lrx="838" lry="1234"/>
             <zone lrx="1074"
                   lry="1258"
                   type="measure"
                   ulx="478"
                   uly="596"
                   xml:id="edirom_zone_ede27fd1-4107-4f24-8bbe-ed623955f7f3"/>
-            <zone lrx="1452"
+            <zone xml:id="edirom_zone_ede27fd1-4107-4f24-8bbe-ed623955f7f3_singstimme"
+                    type="measure" ulx="478" uly="596" lrx="1074" lry="976"/>
+                <zone xml:id="edirom_zone_ede27fd1-4107-4f24-8bbe-ed623955f7f3_klavier"
+                    type="measure" ulx="478" uly="764" lrx="1074" lry="1391"/>
+                <zone lrx="1452"
                   lry="1258"
                   type="measure"
                   ulx="1064"
                   uly="596"
                   xml:id="edirom_zone_2d46a01c-f1bc-4bcc-ac3e-518ddd6f0d31"/>
-            <zone lrx="1762"
+            <zone xml:id="edirom_zone_2d46a01c-f1bc-4bcc-ac3e-518ddd6f0d31_singstimme"
+                    type="measure" ulx="1064" uly="596" lrx="1452" lry="976"/>
+                <zone xml:id="edirom_zone_2d46a01c-f1bc-4bcc-ac3e-518ddd6f0d31_klavier"
+                    type="measure" ulx="1064" uly="764" lrx="1452" lry="1391"/>
+                <zone lrx="1762"
                   lry="1258"
                   type="measure"
                   ulx="1440"
                   uly="596"
                   xml:id="edirom_zone_9edce475-aa59-4f0b-8d2d-af0c0f8a7b3d"/>
-            <zone lrx="2118"
+            <zone xml:id="edirom_zone_9edce475-aa59-4f0b-8d2d-af0c0f8a7b3d_singstimme"
+                    type="measure" ulx="1440" uly="596" lrx="1762" lry="976"/>
+                <zone xml:id="edirom_zone_9edce475-aa59-4f0b-8d2d-af0c0f8a7b3d_klavier"
+                    type="measure" ulx="1440" uly="764" lrx="1762" lry="1391"/>
+                <zone lrx="2118"
                   lry="1258"
                   type="measure"
                   ulx="1756"
                   uly="596"
                   xml:id="edirom_zone_f834b9e7-c345-42eb-a2a0-3040d2fff28b"/>
-            <zone lrx="2754"
+            <zone xml:id="edirom_zone_f834b9e7-c345-42eb-a2a0-3040d2fff28b_singstimme"
+                    type="measure" ulx="1756" uly="596" lrx="2118" lry="976"/>
+                <zone xml:id="edirom_zone_f834b9e7-c345-42eb-a2a0-3040d2fff28b_klavier"
+                    type="measure" ulx="1756" uly="764" lrx="2118" lry="1391"/>
+                <zone lrx="2754"
                   lry="1258"
                   type="measure"
                   ulx="2110"
                   uly="596"
                   xml:id="edirom_zone_b2b2c2dd-74fe-4dca-8ca9-a79b2d3dad89"/>
-            <zone lrx="1146"
+            <zone xml:id="edirom_zone_b2b2c2dd-74fe-4dca-8ca9-a79b2d3dad89_singstimme"
+                    type="measure" ulx="2110" uly="596" lrx="2754" lry="976"/>
+                <zone xml:id="edirom_zone_b2b2c2dd-74fe-4dca-8ca9-a79b2d3dad89_klavier"
+                    type="measure" ulx="2110" uly="764" lrx="2754" lry="1391"/>
+                <zone lrx="1146"
                   lry="2026"
                   type="measure"
                   ulx="474"
@@ -574,7 +594,51 @@
                   </lg>
                </div>
             </score>
-         </mdiv>
+         <parts>
+                    <part label="Singstimme">
+                        <staffDef decls="#singstimme"/>
+                        <section>
+                            <measure label="0" n="1" type="upbeat"
+                                xml:id="edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3_singstimme"
+                                facs="#edirom_zone_ede27fd1-4107-4f24-8bbe-ed623955f7f3_singstimme"/>
+                            <measure label="1" n="2"
+                                xml:id="edirom_measure_1a33a36a-906a-4e45-9545-aa8d465bfe8b_singstimme"
+                                facs="#edirom_zone_2d46a01c-f1bc-4bcc-ac3e-518ddd6f0d31_singstimme"/>
+                            <measure label="2" n="3"
+                                xml:id="edirom_measure_747caf9a-f0e5-431f-8209-d94642e75a5c_singstimme"
+                                facs="#edirom_zone_9edce475-aa59-4f0b-8d2d-af0c0f8a7b3d_singstimme"/>
+                            <measure label="3" n="4"
+                                xml:id="edirom_measure_21956586-c822-4bdb-b19e-00ca0ccbe9d1_singstimme"
+                                facs="#edirom_zone_f834b9e7-c345-42eb-a2a0-3040d2fff28b_singstimme"/>
+                            <measure label="4" n="5"
+                                xml:id="edirom_measure_4248d364-fd7a-4090-8adc-ea8ccd8afb46_singstimme"
+                                facs="#edirom_zone_b2b2c2dd-74fe-4dca-8ca9-a79b2d3dad89_singstimme"/>
+                            <sb/>
+                        </section>
+                    </part>
+                    <part label="Klavier">
+                        <staffDef decls="#klavier"/>
+                        <section>
+                            <measure label="0" n="1" type="upbeat"
+                                xml:id="edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3_klavier"
+                                facs="#edirom_zone_ede27fd1-4107-4f24-8bbe-ed623955f7f3_klavier"/>
+                            <measure label="1" n="2"
+                                xml:id="edirom_measure_1a33a36a-906a-4e45-9545-aa8d465bfe8b_klavier"
+                                facs="#edirom_zone_2d46a01c-f1bc-4bcc-ac3e-518ddd6f0d31_klavier"/>
+                            <measure label="2" n="3"
+                                xml:id="edirom_measure_747caf9a-f0e5-431f-8209-d94642e75a5c_klavier"
+                                facs="#edirom_zone_9edce475-aa59-4f0b-8d2d-af0c0f8a7b3d_klavier"/>
+                            <measure label="3" n="4"
+                                xml:id="edirom_measure_21956586-c822-4bdb-b19e-00ca0ccbe9d1_klavier"
+                                facs="#edirom_zone_f834b9e7-c345-42eb-a2a0-3040d2fff28b_klavier"/>
+                            <measure label="4" n="5"
+                                xml:id="edirom_measure_4248d364-fd7a-4090-8adc-ea8ccd8afb46_klavier"
+                                facs="#edirom_zone_b2b2c2dd-74fe-4dca-8ca9-a79b2d3dad89_klavier"/>
+                            <sb/>
+                        </section>
+                    </part>
+                </parts>
+            </mdiv>
       </body>
    </music>
 </mei>
