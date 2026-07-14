@@ -67,9 +67,7 @@
             <langUsage>
                 <language auth="de"/>
             </langUsage>
-            <notesStmt>
-                 <annot type="descLink" plist="xmldb:exist:///db/apps/edirom/edition-example/content/editions/edirom_edition_7bade454-c1b2-499f-8100-7b3e369e2d65.xml"/>
-            </notesStmt>
+            <notesStmt></notesStmt>
             <classification>
                <termList>
                   <term type="source">edition</term>
