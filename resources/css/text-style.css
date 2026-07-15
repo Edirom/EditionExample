@@ -1,0 +1,116 @@
+/* text styling for emeritus edition */
+
+/* text blocks and heading */
+.textViewContent {
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+
+.textViewContent .teidiv0 > h2 {
+    margin-bottom: 0.5em!important;
+}
+
+.textViewContent h3 {
+    margin-top:unset!important;
+}
+
+.textViewContent h1, .textViewContent .teidiv0 h2, .textViewContent h3, .textViewContent h4 {
+    margin-left:0px;
+    text-align: left;
+    width: 100%;
+}
+
+div.textViewContent div.simple section.teidiv0 p,
+div.textViewContent div.simple div.teidiv0 p {
+    margin-left: 0px!important;
+}
+
+
+/* Definition Lists rendered as tables */
+dl {
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    overflow:auto;
+    display: grid;
+    grid-template-columns: minmax(80px, max-content) auto;
+}
+
+dt {
+    padding-left:2em;
+    word-wrap:break-word;
+}
+
+section.teidiv0,
+div.teidiv0 {
+    margin-bottom: 2em;
+}
+
+div.teidiv1 {
+    margin-bottom: 2em;
+    /*padding-right: 8%;*/
+}
+
+div.teidiv1 > p {
+    /*padding-left: 8%;*/
+}
+
+figure.figure,
+div.figure {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   width:80%;
+   padding:1em;
+   margin:auto;
+}
+
+figure.figure img,
+div.figure img {
+    max-width:100%;
+    max-height:100%;
+    margin:auto;
+}
+
+/* special styling at "Werkgenese" */
+
+.citquote {
+    padding-bottom: 1em;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.caption {
+    margin-top: 1em;
+    font-size: smaller;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+span.italic {
+    font-style: italic;
+}
+
+span.underline1 {
+    text-decoration-line: underline;
+}
+
+span.typewriter {
+    font-family: 'Lucida Sans Unicode', Arial;
+}
+
+span.superscript {
+    vertical-align: super!important;
+}
+
+span.subscript {
+    vertical-align: sub!important;
+}
+
+span.musical-symbol {
+    font-family: Bravura;
+    font-size: 1.6em;
+}

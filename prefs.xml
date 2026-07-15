@@ -29,5 +29,6 @@
         <entry key="image_prefix" value=""/>
         <!-- <entry key="edition_path" value="/db/apps/edirom/edition-example/content/ediromEditions/"/> -->
         <entry key="edition_path" value="/db/apps/edirom/edition-example/content/"/>
+        <entry key="additional_css_path" value="xmldb:exist:///db/apps/edirom/edition-example/resources/css/text-style.css"/>
     </entries>
 </prefs>
