@@ -28,9 +28,7 @@
                <title>Autograph</title>
             </titleStmt>
             <pubStmt/>
-            <notesStmt>
-                <annot type="descLink" plist="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml"/>
-            </notesStmt>
+            <notesStmt></notesStmt>
             <relationList>
                <relation rel="isEmbodimentOf"
                          target="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9.xml#edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9_exp1"

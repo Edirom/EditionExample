@@ -30,7 +30,6 @@
             </titleStmt>
                <pubStmt/>
                <notesStmt>
-                  <annot type="descLink" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml"/>
                   <annot plist="#overlay_1_1" type="overlay" xml:id="overlay_1">
                   <title>sample SVG overlay</title>
                </annot>
