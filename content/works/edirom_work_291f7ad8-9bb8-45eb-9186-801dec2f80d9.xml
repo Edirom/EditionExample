@@ -185,9 +185,7 @@
                     <title>Werkdatei zu Trüber Abschied</title>
                 </titleStmt>
                 <pubStmt/>
-                <notesStmt>
-                    <annot type="descLink" plist="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9.xml"/>
-                </notesStmt>
+                <notesStmt></notesStmt>
             </manifestation>
         </manifestationList>
     </meiHead>
