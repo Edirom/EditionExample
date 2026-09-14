@@ -35,6 +35,12 @@
                             <name xml:lang="en">TEI test file</name>
                         </names>
                     </navigatorItem>
+                    <navigatorItem xml:id="navItem-0-4" sortNo="4" targets="xmldb:exist:///db/apps/edirom/edition-example/content/texts/quellenbeschreibung-in-tei.xml">
+                        <names>
+                            <name xml:lang="de">TEI Quellenbeschreibung</name>
+                            <name xml:lang="en">TEI source description</name>
+                        </names>
+                    </navigatorItem>
                 </navigatorCategory>
                 <navigatorCategory xml:id="navCategory-1" sortNo="2">
                     <names>
