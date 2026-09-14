@@ -1,0 +1,24 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellenbeschreibung</title>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>
+                Quellenüberschrift
+            </head>
+            <div>
+                <p>
+                    Hier steht eine Quellenbeschreibung.
+                </p>
+                <p>
+                    Die offensichtlich nach Abschluß des gesamten Werkes, also frühestens im Herbst 1815, angefertigte eigenhändige Abschrift des Werkes war vermutlich als Reinschrift für Webers Kompositions-Archiv bestimmt. In der Handschrift finden sich nur wenige Korrekturen und sie ist im Hinblick auf Dynamik, Phrasierung und Artikulation sehr spärlich bezeichnet, ähnelt darin also den übrigen „Archivexemplaren“, die sich in Webers Nachlaß finden. Einige wenige Stellen deuten auf Korrekturen im Abschreibprozeß, so daß davon auszugehen ist, daß Weber die Reinschrift nach einem Arbeitsmanuskript oder Entwurf anfertigte.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
