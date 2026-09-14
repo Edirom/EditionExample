@@ -47,13 +47,12 @@ RUN echo "Downloading Roaster xar..." && \
 # and adding our freshly built and downloaded xar-packages
 #########################
 FROM stadlerpeter/existdb:6
+ENV EXIST_PASSWORD=changeme
 
 # add specific settings for this app 
 # For more details about the options see  
 # https://github.com/peterstadler/existdb-docker
 #ENV EXIST_ENV="production"
-ENV EXIST_CONTEXT_PATH="/"
-ENV EXIST_DEFAULT_APP_PATH="xmldb:exist:///db/apps/Edirom-Online-Frontend"
 
 # simply copy our xar packages
 # to the eXist-db autodeploy folder
