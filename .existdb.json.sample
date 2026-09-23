@@ -1,0 +1,17 @@
+{
+    "servers": {
+        "localhost": {
+            "server": "http://localhost:8080/exist",
+            "user": "admin",
+            "password": ""
+        }
+    },
+    "sync": {
+        "server": "localhost",
+        "root": "/db/apps/edirom/edition-example",
+        "ignore": [
+            ".existdb.json",
+            ".git/**"
+        ]
+    }
+}
