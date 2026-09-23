@@ -17,17 +17,25 @@ authors:
   - given-names: Kristin
     family-names: Herold
     orcid: https://orcid.org/0000-0003-2915-353X
+  - given-names: Francesco
+    family-names: Maccarini
+    orcid: https://orcid.org/0000-0002-0219-5898
   - given-names: Tobias
     family-names: Bachmann
     orcid: https://orcid.org/0009-0003-9952-7899
+  - given-names: Peter
+    family-names: Stadler
+    orcid: https://orcid.org/0000-0002-2544-1481
   - given-names: Dennis
     family-names: Ried
     orcid: https://orcid.org/ 0000-0001-5545-2088
   - given-names: Irmlind
     family-names: Capelle
     orcid: https://orcid.org/0000-0001-8897-2880
+  - given-names: Jelena
+    family-names: Wißmann
 repository-code: https://github.com/Edirom/EditionExample
-commit: 1234
+commit: 848f5f528b9081c941a54daf938e09209f8ae05c
 abstract: >-
   This example edition is to build a sample edition data set that can be installed in eXist-db alongside Edirom-Online. 
   The data set is to provide two perspectives on Edirom Online: (1) A feature based perspective providing test 
@@ -36,5 +44,5 @@ abstract: >-
   your edition's data; (2) A user or content based perspective illustrating the capabilities of Edirom-Online in an 
   annotated manner.
 license: CC-BY-4.0
-version: v0.2
-date-released: 2026-01-21
+version: v0.2.1
+date-released: 2026-09-23
