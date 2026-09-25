@@ -27,6 +27,9 @@
             <ab rendition="#ab">This text should appear with a blue border due to its <code>rendition</code> attribute</ab>
             <p>For more information regarding styling of TEI files see <ptr target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ST.html#STGAre"/>.</p>
             <p>This edirom Gui term should be resolved and the result should change with the language: <term type="ediromGui" key="view.desktop.Desktop_Maximize"/></p>
+            <p>Here we have an annotation <note xml:id="note_001"/> that has a &lt;tei:note&gt; placeholder in the text.</p>
+            <p>Here we have an annotation that is attached to a &lt;tei:note&gt; wrapping a given text: <note xml:id="note_002">Annotated text</note>.</p>
+            <p>Here we have a &lt;tei:note&gt; of type commentary: <note type="commentary">Some text in the note</note>.</p>
         </body>
     </text>
 </TEI>
