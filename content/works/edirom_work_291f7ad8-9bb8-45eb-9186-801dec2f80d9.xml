@@ -175,12 +175,12 @@
                         <annot class="#ediromAnnotPrio1 #annotation.category.notentext" type="editorialComment" xml:id="edirom_annotation_00010" plist="xmldb:exist:///db/apps/edirom/edition-example/content/texts/tei-test.xml#note_001">
                             <title xml:lang="de">Eine Anmerkung im Text</title>
                             <title xml:lang="en">An annotation in the text</title>
-                            <p>I am an annotation that should be displayed. And <rend rend="bold">I am bold</rend>.</p>
+                            <p>I am an &lt;mei:annot&gt; annotation that points to an empty &lt;tei:note&gt; in the text and should be displayed. And <rend rend="bold">I am bold</rend>.</p>
                         </annot>
                         <annot class="#ediromAnnotPrio2 #annotation.category.artikulation" type="editorialComment" xml:id="edirom_annotation_00011" plist="xmldb:exist:///db/apps/edirom/edition-example/content/texts/tei-test.xml#note_002">
                             <title xml:lang="de">Eine weitere Anmerkung im Text</title>
                             <title xml:lang="en">Another annotation in the text</title>
-                            <p>I am an annotation that annotates a specific text. And <rend rend="bold">I am bold</rend>.</p>
+                            <p>I am an &lt;mei:annot&gt; annotation that points to a &lt;tei:note&gt; which contains some text. And <rend rend="bold">I am bold</rend>.</p>
                         </annot>
                     </annot>
                 </notesStmt>
