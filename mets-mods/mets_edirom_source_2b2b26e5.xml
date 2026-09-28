@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:ed="http://www.edirom.de/"
+           xmlns:mets="http://www.loc.gov/METS/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+   <mets:metsHdr CREATEDATE="2026-09-07T11:30:35.501247+02:00">
+      <mets:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
+         <mets:name>Edirom ediromMei2metsmods.xsl</mets:name>
+      </mets:agent>
+   </mets:metsHdr>
+   <mets:dmdSec ID="DMDLOG_0000">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:titleInfo>
+                  <mods:title>Trüber Abschied (Erstdruck)</mods:title>
+               </mods:titleInfo>
+               <mods:titleInfo type="uniform">
+                  <mods:title>Trüber Abschied (für Singstimme und Klavier)</mods:title>
+               </mods:titleInfo>
+               <mods:name type="personal">
+                  <mods:namePart>Ludwig Baumann</mods:namePart>
+                  <mods:displayForm>Ludwig Baumann</mods:displayForm>
+                  <mods:nameIdentifier type="gnd">https://d-nb.info/gnd/117758817</mods:nameIdentifier>
+                  <mods:role>
+                     <mods:roleTerm authority="marcrelator" type="code">cmp</mods:roleTerm>
+                  </mods:role>
+               </mods:name>
+               <mods:relatedItem type="original">
+                  <mods:physicalDescription>
+                     <mods:extent>4 Bl.</mods:extent>
+                  </mods:physicalDescription>
+                  <mods:tableOfContents type="perfRes">Singstimme, Klavier</mods:tableOfContents>
+                  <mods:location>
+                     <mods:physicalLocation authority="rism">D-KA</mods:physicalLocation>
+                     <mods:shelfLocator>M 313</mods:shelfLocator>
+                  </mods:location>
+               </mods:relatedItem>
+               <mods:identifier type="siglum">Pr</mods:identifier>
+               <mods:accessCondition type="use and reproduction"
+                                     xlink:href="http://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</mods:accessCondition>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:amdSec ID="AMD">
+      <mets:rightsMD ID="RIGHTS">
+         <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="EDRIGHTS">
+            <mets:xmlData>
+               <ed:rights>
+                  <ed:owner>Badische Landesbibliothek Karlsruhe</ed:owner>
+                  <ed:ownerSiteURL>https://www.blb-karlsruhe.de/</ed:ownerSiteURL>
+               </ed:rights>
+            </mets:xmlData>
+         </mets:mdWrap>
+      </mets:rightsMD>
+   </mets:amdSec>
+   <mets:fileSec>
+      <mets:fileGrp USE="DEFAULT">
+         <mets:file ID="FILE_0001_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295250/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0002_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295251/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0003_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295252/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0004_DEFAULT" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295253/full/full/0/default.jpg"/>
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="MAX">
+         <mets:file ID="FILE_0001_MAX" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295250/full/max/0/default.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0002_MAX" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295251/full/max/0/default.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0003_MAX" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295252/full/max/0/default.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0004_MAX" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295253/full/max/0/default.jpg"/>
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="THUMBS">
+         <mets:file ID="FILE_0001_THUMBS" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295250/full/200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0002_THUMBS" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295251/full/200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0003_THUMBS" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295252/full/200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file ID="FILE_0004_THUMBS" MIMETYPE="image/jpeg">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295253/full/200,/0/default.jpg"/>
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="SCORE">
+         <mets:file ID="FILE_0001_SCORE" MIMETYPE="application/mei+xml">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="https://github.com/Edirom/EditionExample/raw/develop/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml"/>
+         </mets:file>
+      </mets:fileGrp>
+   </mets:fileSec>
+   <mets:structMap TYPE="LOGICAL">
+      <mets:div ID="LOG_0000"
+                DMDID="DMDLOG_0000"
+                TYPE="print"
+                LABEL="Trüber Abschied (für Singstimme und Klavier) - Erstdruck"/>
+   </mets:structMap>
+   <mets:structMap TYPE="PHYSICAL">
+      <mets:div ID="PHYS_0000" TYPE="physSequence">
+         <mets:div ID="PHYS_0001" ORDER="1" ORDERLABEL="1" TYPE="page">
+            <mets:fptr FILEID="FILE_0001_DEFAULT"/>
+            <mets:fptr FILEID="FILE_0001_MAX"/>
+            <mets:fptr FILEID="FILE_0001_THUMBS"/>
+         </mets:div>
+         <mets:div ID="PHYS_0002" ORDER="2" ORDERLABEL="2" TYPE="page">
+            <mets:fptr FILEID="FILE_0002_DEFAULT"/>
+            <mets:fptr FILEID="FILE_0002_MAX"/>
+            <mets:fptr FILEID="FILE_0002_THUMBS"/>
+         </mets:div>
+         <mets:div ID="PHYS_0003" ORDER="3" ORDERLABEL="3" TYPE="page">
+            <mets:fptr FILEID="FILE_0003_DEFAULT"/>
+            <mets:fptr FILEID="FILE_0003_MAX"/>
+            <mets:fptr FILEID="FILE_0003_THUMBS"/>
+         </mets:div>
+         <mets:div ID="PHYS_0004" ORDER="4" ORDERLABEL="[6]" TYPE="page">
+            <mets:fptr FILEID="FILE_0004_DEFAULT"/>
+            <mets:fptr FILEID="FILE_0004_MAX"/>
+            <mets:fptr FILEID="FILE_0004_THUMBS"/>
+         </mets:div>
+      </mets:div>
+   </mets:structMap>
+   <mets:structMap TYPE="MUSICAL">
+      <mets:div ID="MUS_0000" TYPE="measures">
+         <mets:div ID="MUS_0000_0001"
+                   ORDER="1"
+                   ORDERLABEL="1"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="478,596,1074,1258" FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3"
+                          END="edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0002"
+                   ORDER="2"
+                   ORDERLABEL="2"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="1064,596,1452,1258" FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_1a33a36a-906a-4e45-9545-aa8d465bfe8b"
+                          END="edirom_measure_1a33a36a-906a-4e45-9545-aa8d465bfe8b"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0003"
+                   ORDER="3"
+                   ORDERLABEL="3"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="1440,596,1762,1258" FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_747caf9a-f0e5-431f-8209-d94642e75a5c"
+                          END="edirom_measure_747caf9a-f0e5-431f-8209-d94642e75a5c"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0004"
+                   ORDER="4"
+                   ORDERLABEL="4"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="1756,596,2118,1258" FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_21956586-c822-4bdb-b19e-00ca0ccbe9d1"
+                          END="edirom_measure_21956586-c822-4bdb-b19e-00ca0ccbe9d1"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0005"
+                   ORDER="5"
+                   ORDERLABEL="5"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="2110,596,2754,1258" FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_4248d364-fd7a-4090-8adc-ea8ccd8afb46"
+                          END="edirom_measure_4248d364-fd7a-4090-8adc-ea8ccd8afb46"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0006"
+                   ORDER="6"
+                   ORDERLABEL="6"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="474,1376,1146,2026" FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_75db15ab-9162-4098-9960-a5f1503eef1e"
+                          END="edirom_measure_75db15ab-9162-4098-9960-a5f1503eef1e"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0007"
+                   ORDER="7"
+                   ORDERLABEL="7"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1134,1376,1448,2026"
+                          FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_bb3ded4e-6dbf-41b2-a4ba-c4c759893371"
+                          END="edirom_measure_bb3ded4e-6dbf-41b2-a4ba-c4c759893371"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0008"
+                   ORDER="8"
+                   ORDERLABEL="8"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1442,1376,1768,2026"
+                          FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_01bcb8d0-6fa6-49b5-9dc4-480ac8af744f"
+                          END="edirom_measure_01bcb8d0-6fa6-49b5-9dc4-480ac8af744f"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0009"
+                   ORDER="9"
+                   ORDERLABEL="9"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1762,1376,2270,2026"
+                          FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_6c114e30-4375-4c3b-a326-f2d7b5d7c7af"
+                          END="edirom_measure_6c114e30-4375-4c3b-a326-f2d7b5d7c7af"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0010"
+                   ORDER="10"
+                   ORDERLABEL="10"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="2264,1376,2760,2026"
+                          FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_ecbf31cf-5302-4453-979e-250c313a7bbe"
+                          END="edirom_measure_ecbf31cf-5302-4453-979e-250c313a7bbe"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0011"
+                   ORDER="11"
+                   ORDERLABEL="11"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="486,2128,874,2794" FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_02b9b83a-f2bc-4fe6-ade9-390e0c53ae90"
+                          END="edirom_measure_02b9b83a-f2bc-4fe6-ade9-390e0c53ae90"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0012"
+                   ORDER="12"
+                   ORDERLABEL="12"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="868,2128,1160,2794" FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_47012eb8-1203-49f2-b0a8-c48ad1352d13"
+                          END="edirom_measure_47012eb8-1203-49f2-b0a8-c48ad1352d13"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0013"
+                   ORDER="13"
+                   ORDERLABEL="13"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1158,2128,1726,2794"
+                          FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_b9cc8d5d-a0c2-41da-966c-f1651193bf60"
+                          END="edirom_measure_b9cc8d5d-a0c2-41da-966c-f1651193bf60"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0014"
+                   ORDER="14"
+                   ORDERLABEL="14"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1724,2128,2236,2794"
+                          FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_0bada907-d72c-46a6-85a8-24896263ced1"
+                          END="edirom_measure_0bada907-d72c-46a6-85a8-24896263ced1"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0015"
+                   ORDER="15"
+                   ORDERLABEL="15"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="2234,2128,2766,2794"
+                          FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_3fcf2b18-2243-46f0-9b41-d82dcb157371"
+                          END="edirom_measure_3fcf2b18-2243-46f0-9b41-d82dcb157371"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0016"
+                   ORDER="16"
+                   ORDERLABEL="16"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="488,2892,1224,3544" FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_f599d8d2-42f7-4729-a514-6f94aeea5be3"
+                          END="edirom_measure_f599d8d2-42f7-4729-a514-6f94aeea5be3"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0017"
+                   ORDER="17"
+                   ORDERLABEL="17"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1220,2892,1572,3544"
+                          FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_62d99816-b848-47f2-b00b-487562300618"
+                          END="edirom_measure_62d99816-b848-47f2-b00b-487562300618"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0018"
+                   ORDER="18"
+                   ORDERLABEL="18"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1570,2892,1906,3544"
+                          FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_0c63a5b8-b121-49c2-afec-9fd218c23b70"
+                          END="edirom_measure_0c63a5b8-b121-49c2-afec-9fd218c23b70"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0019"
+                   ORDER="19"
+                   ORDERLABEL="19"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1904,2892,2508,3544"
+                          FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_56b16408-af82-4449-b388-0219e90f0b98"
+                          END="edirom_measure_56b16408-af82-4449-b388-0219e90f0b98"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0020"
+                   ORDER="20"
+                   ORDERLABEL="20"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="2506,2892,2772,3544"
+                          FILEID="FILE_0002_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_8dff22c2-84f5-4662-aab3-c0ec808dd759"
+                          END="edirom_measure_8dff22c2-84f5-4662-aab3-c0ec808dd759"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0021"
+                   ORDER="21"
+                   ORDERLABEL="21"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="548,462,914,1214" FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_00fa7c21-f8e4-413d-82ea-a5c622530795"
+                          END="edirom_measure_00fa7c21-f8e4-413d-82ea-a5c622530795"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0022"
+                   ORDER="22"
+                   ORDERLABEL="22"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="908,462,1532,1214" FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_f0a0539e-e0c0-4b80-aa98-7d2a7bec9ed4"
+                          END="edirom_measure_f0a0539e-e0c0-4b80-aa98-7d2a7bec9ed4"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0023"
+                   ORDER="23"
+                   ORDERLABEL="23"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="1528,462,2018,1214" FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_068d945b-8309-4992-8015-605bd8e7ede8"
+                          END="edirom_measure_068d945b-8309-4992-8015-605bd8e7ede8"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0024"
+                   ORDER="24"
+                   ORDERLABEL="24"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="2016,462,2524,1214" FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_8a7eccb0-152b-41fd-9934-0dfa778a7b19"
+                          END="edirom_measure_8a7eccb0-152b-41fd-9934-0dfa778a7b19"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0025"
+                   ORDER="25"
+                   ORDERLABEL="25"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="2520,462,2816,1214" FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_8705c90f-1f6f-4d29-bab3-698880306d64"
+                          END="edirom_measure_8705c90f-1f6f-4d29-bab3-698880306d64"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0026"
+                   ORDER="26"
+                   ORDERLABEL="26"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="550,1274,1394,2012" FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_53b9bbb4-1d3c-4e19-ac06-868a1abf6d9d"
+                          END="edirom_measure_53b9bbb4-1d3c-4e19-ac06-868a1abf6d9d"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0027"
+                   ORDER="27"
+                   ORDERLABEL="27"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1388,1274,1982,2012"
+                          FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_9014023f-c926-46bd-97cb-531c07f7a468"
+                          END="edirom_measure_9014023f-c926-46bd-97cb-531c07f7a468"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0028"
+                   ORDER="28"
+                   ORDERLABEL="28"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1974,1274,2498,2012"
+                          FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_081e1790-d79c-4742-a801-1bc9490ac8b0"
+                          END="edirom_measure_081e1790-d79c-4742-a801-1bc9490ac8b0"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0029"
+                   ORDER="29"
+                   ORDERLABEL="29"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="2494,1274,2822,2012"
+                          FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_4a9a5a6c-6718-4411-8fad-9205f25900fa"
+                          END="edirom_measure_4a9a5a6c-6718-4411-8fad-9205f25900fa"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0030"
+                   ORDER="30"
+                   ORDERLABEL="30"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="556,2112,1302,2728" FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_0e55fb78-4cc2-4cda-94e3-a342a1700c39"
+                          END="edirom_measure_0e55fb78-4cc2-4cda-94e3-a342a1700c39"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0031"
+                   ORDER="31"
+                   ORDERLABEL="31"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1300,2112,1826,2728"
+                          FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_5ba0269a-8602-499b-8e37-69d1c4454a8e"
+                          END="edirom_measure_5ba0269a-8602-499b-8e37-69d1c4454a8e"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0032"
+                   ORDER="32"
+                   ORDERLABEL="32"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1822,2112,2366,2728"
+                          FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_d212c65d-3817-4153-9984-5c4c1e7e3874"
+                          END="edirom_measure_d212c65d-3817-4153-9984-5c4c1e7e3874"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0033"
+                   ORDER="33"
+                   ORDERLABEL="33"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="2358,2112,2826,2728"
+                          FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_fb41b2e1-97b9-4530-b0bd-2d229899eeeb"
+                          END="edirom_measure_fb41b2e1-97b9-4530-b0bd-2d229899eeeb"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0034"
+                   ORDER="34"
+                   ORDERLABEL="34"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="564,2844,1006,3534" FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_605983d8-5fe8-4901-8c0d-a42ab790966c"
+                          END="edirom_measure_605983d8-5fe8-4901-8c0d-a42ab790966c"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0035"
+                   ORDER="35"
+                   ORDERLABEL="35"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT" COORDS="996,2844,1246,3534" FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_c79e4d25-0a13-4b50-8b24-5d6ac454b557"
+                          END="edirom_measure_c79e4d25-0a13-4b50-8b24-5d6ac454b557"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0036"
+                   ORDER="36"
+                   ORDERLABEL="36"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1240,2844,1790,3534"
+                          FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_3ce3a0c8-5c66-4bad-8e12-2958f2263f9f"
+                          END="edirom_measure_3ce3a0c8-5c66-4bad-8e12-2958f2263f9f"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0037"
+                   ORDER="37"
+                   ORDERLABEL="37"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="1788,2844,2174,3534"
+                          FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_761c74f5-27ad-4df3-bcc7-ced8dd646748"
+                          END="edirom_measure_761c74f5-27ad-4df3-bcc7-ced8dd646748"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0038"
+                   ORDER="38"
+                   ORDERLABEL="38"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="2162,2844,2616,3534"
+                          FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_92b50086-5b06-4b74-9116-c0d42f93379a"
+                          END="edirom_measure_92b50086-5b06-4b74-9116-c0d42f93379a"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+         <mets:div ID="MUS_0000_0039"
+                   ORDER="39"
+                   ORDERLABEL="39"
+                   LABEL="Ludwig Baumann, Trüber Abschied (für Singstimme und Klavier)"
+                   TYPE="measure">
+            <mets:fptr>
+               <mets:area SHAPE="RECT"
+                          COORDS="2610,2844,2838,3534"
+                          FILEID="FILE_0003_DEFAULT"/>
+            </mets:fptr>
+            <mets:fptr>
+               <mets:area FILEID="FILE_0001_SCORE"
+                          BEGIN="edirom_measure_773aeb3b-3cc9-4833-a687-bc046769508f"
+                          END="edirom_measure_773aeb3b-3cc9-4833-a687-bc046769508f"
+                          BETYPE="IDREF"/>
+            </mets:fptr>
+         </mets:div>
+      </mets:div>
+   </mets:structMap>
+</mets:mets>
