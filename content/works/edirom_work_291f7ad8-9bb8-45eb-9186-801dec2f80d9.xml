@@ -19,10 +19,21 @@
         </fileDesc>
         <encodingDesc>
             <classDecls>
-               <taxonomy>
-                   <category xml:id="ediromPriority"/>
-                   <category xml:id="ediromCategory"/>
-                   <taxonomy>
+                <taxonomy>
+                    <category xml:id="customAnnotationCategory"/>
+                    <category xml:id="ediromPriority"/>
+                    <category xml:id="ediromCategory"/>
+                    <taxonomy>
+                        <category class="#customAnnotationCategory" xml:id="annotation.category.tempo">
+                            <label xml:lang="de">Tempo</label>
+                            <label xml:lang="en">tempo</label>
+                        </category>
+                        <category class="#customAnnotationCategory" xml:id="annotation.category.generalComment">
+                            <label xml:lang="de">Generaler Kommentar</label>
+                            <label xml:lang="en">general comment</label>
+                        </category>
+                    </taxonomy>
+                    <taxonomy>
                        <category class="#ediromCategory" xml:id="annotation.category.notentext">
                            <label xml:lang="de">Notentext</label>
                            <label xml:lang="en">musical text</label>
@@ -125,18 +136,18 @@
                 </perfMedium>
                 <notesStmt>
                     <annot type="criticalCommentary">
-                        <annot class="#ediromAnnotPrio2 #annotation.category.pausensetzung" type="editorialComment" xml:id="edirom_annotation_00001" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_e3530909-145e-466e-939e-b6c7e4015842 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3
+                        <annot class="#ediromAnnotPrio2 #annotation.category.pausensetzung #annotation.category.generalComment" type="editorialComment" xml:id="edirom_annotation_00001" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_e3530909-145e-466e-939e-b6c7e4015842 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3
                             xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_1a33a36a-906a-4e45-9545-aa8d465bfe8b">
                             <title xml:lang="de">Generalanmerkung: Pausensetzung</title>
                             <title xml:lang="en"></title>
                             <p>In <rend rend="bold">Ms</rend> sind Viertelpausen häufig liegend notiert. Ganztaktpausen hängen mitunter an der mittleren Notenlinie.</p>
                         </annot>
-                        <annot class="#ediromAnnotPrio2 #annotation.category.halsungBalkung" type="editorialComment" xml:id="edirom_annotation_00002" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_3c608e31-8266-48e7-bc62-d521b5bc711b xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_4248d364-fd7a-4090-8adc-ea8ccd8afb46">
+                        <annot class="#ediromAnnotPrio2 #annotation.category.halsungBalkung #annotation.category.generalComment" type="editorialComment" xml:id="edirom_annotation_00002" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_3c608e31-8266-48e7-bc62-d521b5bc711b xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_4248d364-fd7a-4090-8adc-ea8ccd8afb46">
                             <title xml:lang="de">Generalanmerkung: Halsung</title>
                             <title xml:lang="en">General note: necking</title>
                             <p>In <rend rend="bold">Ms</rend> sind die Notenhälse durchgängig rechts am Notenkopf angesetzt.</p>
                         </annot>
-                        <annot class="#ediromAnnotPrio3 #annotation.category.rasurTektur" type="editorialComment" xml:id="edirom_annotation_00003" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5">
+                        <annot class="#ediromAnnotPrio3 #annotation.category.rasurTektur #annotation.category.tempo" type="editorialComment" xml:id="edirom_annotation_00003" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5">
                             <title xml:lang="de">Auftakt, Tempobezeichnung</title>
                             <title xml:lang="en"></title>
                             <p><rend rend="bold">Ms</rend> Bassschlüssel über Rasur</p>
