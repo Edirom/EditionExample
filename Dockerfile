@@ -7,8 +7,8 @@ FROM eclipse-temurin:25-jre AS builder
 LABEL maintainer="Peter Stadler for the ViFE"
 LABEL maintainer="Daniel Jettka"
 
-ARG BACKEND_VERSION=1.4.0
-ARG FRONTEND_VERSION=1.4.0
+ARG BACKEND_VERSION=1.5.0
+ARG FRONTEND_VERSION=1.5.0
 ARG ROASTER_VERSION=1.11.0
 ARG BACKEND_URL=http://localhost:8080/apps/Edirom-Online-Backend/
 ARG BACKEND_PATH=/apps/Edirom-Online-Backend
