@@ -20,8 +20,15 @@
         <encodingDesc>
             <classDecls>
                <taxonomy>
+                   <category xml:id="customAnnotation"/>
                    <category xml:id="ediromPriority"/>
                    <category xml:id="ediromCategory"/>
+                   <taxonomy>
+                       <category class="#customAnnotation" xml:id="annotation.customAnnotation.example">
+                           <label xml:lang="de">Beispiel</label>
+                           <label xml:lang="en">example</label>
+                       </category>
+                   </taxonomy>
                    <taxonomy>
                        <category class="#ediromCategory" xml:id="annotation.category.notentext">
                            <label xml:lang="de">Notentext</label>
@@ -125,7 +132,7 @@
                 </perfMedium>
                 <notesStmt>
                     <annot type="criticalCommentary">
-                        <annot class="#ediromAnnotPrio2 #annotation.category.pausensetzung" type="editorialComment" xml:id="edirom_annotation_00001" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_e3530909-145e-466e-939e-b6c7e4015842 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3
+                        <annot class="#annotation.customAnnotation.example #ediromAnnotPrio2 #annotation.category.pausensetzung" type="editorialComment" xml:id="edirom_annotation_00001" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_e3530909-145e-466e-939e-b6c7e4015842 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3
                             xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_1a33a36a-906a-4e45-9545-aa8d465bfe8b">
                             <title xml:lang="de">Generalanmerkung: Pausensetzung</title>
                             <title xml:lang="en"></title>
