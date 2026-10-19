@@ -1,9 +1,11 @@
 <collection xmlns="http://exist-db.org/collection-config/1.0">
     <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mei="http://www.music-encoding.org/ns/mei">
-<!--         Full text index based on Lucene -->
+
+        <!-- Full text index based on Lucene -->
         <lucene>
             <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
             <analyzer id="ws" class="org.apache.lucene.analysis.core.WhitespaceAnalyzer"/>
+
             <text qname="@type" analyzer="ws"/>
             <text qname="@key" analyzer="ws"/>
             
@@ -13,6 +15,7 @@
             <text qname="tei:settlement" boost="2.0"/>
             <text qname="tei:text"/>
             <text qname="tei:title" boost="2.0"/>
+            <text qname="tei:bibl"/>
             
             <!--MEI-->
             <text qname="mei:mei">
@@ -26,15 +29,19 @@
             <!--  HTML documents with XHTML namespace -->
             <text qname="html:body" xmlns:html="http://www.w3.org/1999/xhtml"/>
             <text qname="html:title" boost="2.0" xmlns:html="http://www.w3.org/1999/xhtml"/>
+
             <!--  HTML documents without namespace (DOCTYPE html) -->
             <text qname="body"/>
             <text qname="title" boost="2.0"/>
-                    </lucene>
+        </lucene>
         
         <!-- Range indexes -->
         <range>
+            <create qname="tei:text" type="xs:string"/>
             <create qname="tei:title" type="xs:string"/>
             <create qname="tei:bibl" type="xs:string"/>
+            <create qname="tei:orgName" type="xs:string"/>
+            <create qname="tei:settlement" type="xs:string"/>
             <create qname="tei:persName" type="xs:string"/>
             <create qname="tei:persName" type="xs:string">
                 <field name="persName-key" match="@key" type="xs:string"/>
