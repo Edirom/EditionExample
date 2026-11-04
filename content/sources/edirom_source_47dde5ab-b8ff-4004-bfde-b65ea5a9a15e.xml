@@ -9,8 +9,31 @@
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">Trüber Abschied (Manuskript)</title>
+            <keywords>music edition, manuscript</keywords>
          </titleStmt>
-         <pubStmt/>
+         <editionStmt>
+            <edition>
+               <title>Edition Example</title>
+               <repository>https://github.com/Edirom/EditionExample</repository>
+               <editor>
+                     <persName>Benjamin W. Bohl</persName>
+                     <persName>Daniel Jettka</persName>
+                     <persName>Daniel Röwenstrunk</persName>
+                     <persName>Kristin Herold</persName>
+                     <persName>Peter Stadler</persName>
+                     <persName>Tobias Bachmann</persName>
+               </editor>
+            </edition>
+         </editionStmt>
+         <pubStmt>
+            <publisher>
+               <name>Virtueller Forschungsverbund Edirom (ViFE)</name>
+            </publisher>
+            <date>2026-04-22</date>
+            <availability>
+               <identifier>CC-BY-4.0</identifier>
+            </availability>
+         </pubStmt>
       </fileDesc>
       <encodingDesc>
          <appInfo>
