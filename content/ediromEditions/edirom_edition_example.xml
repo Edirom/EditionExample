@@ -106,6 +106,28 @@
                         </names>
                     </navigatorItem>
                 </navigatorCategory>
+                <navigatorCategory xml:id="navCategory-5" sortNo="6">
+                    <names>
+                        <name xml:lang="de">3D Dateien</name>
+                        <name xml:lang="en">3D Files</name>
+                    </names>
+                    <navigatorItem xml:id="navItem-5-1"
+                              sortNo="1"
+                              targets="xmldb:exist:///db/apps/edirom/edition-example/content/3d-files/p1-actors-all_opt.x3d">
+                        <names>
+                            <name xml:lang="de">p1-actors-all_opt</name>
+                            <name xml:lang="en">p1-actors-all_opt</name>
+                        </names>
+                    </navigatorItem>
+                    <navigatorItem xml:id="navItem-5-2"
+                              sortNo="2"
+                              targets="xmldb:exist:///db/apps/edirom/edition-example/content/3d-files/ExportAnimationTest_opt.x3d">
+                        <names>
+                            <name xml:lang="de">ExportAnimationTest_opt</name>
+                            <name xml:lang="en">ExportAnimationTest_opt</name>
+                        </names>
+                    </navigatorItem>
+                </navigatorCategory>
             </navigatorDefinition>
             <searchWindowConfig/>
             <concordances>
