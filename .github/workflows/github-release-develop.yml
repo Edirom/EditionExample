@@ -37,7 +37,7 @@ jobs:
       - name: Build develop.xar
         run: |
           ant
-          mv $dist_dir/*.xar $dist_dir/develop.xar
+          mv ${{ env.dist_dir }}/*.xar ${{ env.dist_dir }}/develop.xar
       
       - name: Move dev tag
         run: |
@@ -53,4 +53,4 @@ jobs:
           prerelease: true    
           allowUpdates: true
           removeArtifacts: true
-          artifacts: $dist_dir/**/*
+          artifacts: ${{ env.dist_dir }}/**/*
