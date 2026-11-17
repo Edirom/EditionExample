@@ -17,17 +17,6 @@ jobs:
           fetch-depth: 0 # fetch all history to include latest tags for build metadata
           submodules: 'recursive'
 
-      - name: Load build properties
-        run: |
-          while IFS='=' read -r key value; do
-            [[ -z "$key" || "$key" =~ ^[[:space:]]*# ]] && continue
-      
-            # Replace dots with underscores
-            key=${key//./_}
-      
-            echo "$key=$value" >> "$GITHUB_ENV"
-          done < build.properties
-
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v4
 
@@ -37,7 +26,7 @@ jobs:
       - name: Build develop.xar
         run: |
           ant
-          mv ${{ env.dist_dir }}/*.xar ${{ env.dist_dir }}/develop.xar
+          mv dist/*.xar dist/develop.xar
       
       - name: Move dev tag
         run: |
@@ -53,4 +42,4 @@ jobs:
           prerelease: true    
           allowUpdates: true
           removeArtifacts: true
-          artifacts: ${{ env.dist_dir }}/**/*
+          artifacts: dist/**/*
