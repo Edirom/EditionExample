@@ -1,0 +1,44 @@
+name: Release develop state
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # fetch all history to include latest tags for build metadata
+          submodules: 'recursive'
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+
+      - name: Build develop.xar
+        run: |
+          ant
+          mv dist/*.xar dist/develop.xar
+      
+      - name: Move dev tag
+        run: |
+          git tag -f dev "$GITHUB_SHA"
+          git push origin refs/tags/dev --force
+          
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: dev
+          name: "Development build"
+          body: "Automatic release from the develop branch."
+          prerelease: true    
+          allowUpdates: true
+          removeArtifacts: true
+          artifacts: dist/**/*
