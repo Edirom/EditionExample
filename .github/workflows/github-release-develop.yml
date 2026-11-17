@@ -20,9 +20,11 @@ jobs:
       - name: Load build properties
         run: |
           while IFS='=' read -r key value; do
-            # Skip empty lines and comments
             [[ -z "$key" || "$key" =~ ^[[:space:]]*# ]] && continue
-
+      
+            # Replace dots with underscores
+            key=${key//./_}
+      
             echo "$key=$value" >> "$GITHUB_ENV"
           done < build.properties
 
@@ -35,7 +37,7 @@ jobs:
       - name: Build develop.xar
         run: |
           ant
-          mv $dist.dir/*.xar $dist.dir/develop.xar
+          mv $dist_dir/*.xar $dist_dir/develop.xar
       
       - name: Move dev tag
         run: |
@@ -51,4 +53,4 @@ jobs:
           prerelease: true    
           allowUpdates: true
           removeArtifacts: true
-          artifacts: $dist.dir/**/*
+          artifacts: $dist_dir/**/*
