@@ -170,5 +170,27 @@
                 </concordance>
             </concordances>
         </work>
+        <work xml:id="edirom_work_c98b4b55-827e-413b-8572-4bd39dc6711d"
+            sortNo="2"
+            xlink:href="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_work_c98b4b55-827e-413b-8572-4bd39dc6711d.xml">
+            <navigatorDefinition>
+                <navigatorCategory xml:id="navCategory-sample-2" sortNo="1">
+                    <names>
+                        <name xml:lang="de">Werk</name>
+                        <name xml:lang="en">Work</name>
+                    </names>
+                    <navigatorItem xml:id="navItem-sample-2-1"
+                              sortNo="1"
+                              targets="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_work_c98b4b55-827e-413b-8572-4bd39dc6711d.xml[width:900]">
+                        <names>
+                            <name xml:lang="de">Kritischer Bericht (Beispiel 2)</name>
+                            <name xml:lang="en">Critical remarks (Sample 2)</name>
+                        </names>
+                    </navigatorItem>
+                </navigatorCategory>
+            </navigatorDefinition>
+            <searchWindowConfig/>
+            <concordances/>
+        </work>
     </works>
 </edition>
