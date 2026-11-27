@@ -182,6 +182,18 @@
                             <title xml:lang="en">Another annotation in the text</title>
                             <p>I am an &lt;mei:annot&gt; annotation that points to a &lt;tei:note&gt; which contains some text. And <rend rend="bold">I am bold</rend>.</p>
                         </annot>
+                        <annot class="#ediromAnnotPrio2 #annotation.category.notentext" type="editorialComment" xml:id="edirom_annotation_00012" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_b1981cb9-3a44-439c-9c5b-b05e822d553e xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_747caf9a-f0e5-431f-8209-d94642e75a5c">
+                            <title xml:lang="de">Verweise in Anmerkungen (mei:ref)</title>
+                            <title xml:lang="en">References in annotations (mei:ref)</title>
+                            <p>I am an &lt;mei:annot&gt; annotation containing &lt;mei:ref&gt; elements with different kinds of targets:
+                                a link to a <ref target="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml">whole source</ref>,
+                                a link to a <ref target="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5">measure in a source (upbeat)</ref>,
+                                a link with a parameter block that reuses an already open window (<ref target="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_b1981cb9-3a44-439c-9c5b-b05e822d553e[useExisting=true]">m. 2</ref>; open the upbeat link first),
+                                a link to a <ref target="xmldb:exist:///db/apps/edirom/edition-example/content/texts/tei-test.xml#note_002">note in a TEI text</ref>,
+                                an <ref target="https://edirom.de/">external link</ref>,
+                                a link with <ref target="xmldb:exist:///db/apps/edirom/edition-example/content/texts/tei-test.xml"><rend rend="italic">formatted link text</rend></ref>,
+                                and a <ref>reference without @target</ref>, which should not be rendered as a link.</p>
+                        </annot>
                     </annot>
                 </notesStmt>
                 <expressionList>
